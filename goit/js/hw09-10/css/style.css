@@ -1,0 +1,183 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: url(../img/img2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	width: 700px;
+	height: 640px;
+	margin: 0 auto;
+	background: white;
+	padding-bottom: 50px;
+	box-shadow: 0 0 5px 5px lime;
+}
+img {
+	width: 696px;
+	display: block;
+	margin: 0 auto;
+	border: 2px solid black;
+}
+form {
+	margin: 10px 0 10px 400px;
+	padding-top: 20px;
+}
+[type="submit"] {
+	width: 100px;
+	line-height: 30px;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0 0 15px 2px black;
+	background: white;
+	color: black;
+	font-family: Tahoma;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.menu {
+	list-style: none;
+}
+.menu li {
+	width: 120px;
+	margin: 5px 15px 0 35px;
+	list-style: none;
+	display: inline-block;
+	font-size: 20px;
+	font-family: Tahoma;
+	position: relative;
+	vertical-align: middle;
+}
+.menu li a:hover {
+	background: #aef;
+}
+.menu li a {
+	text-decoration: none;
+	display: block;
+	background: #aaa;
+	color: black;
+	padding: 5px 20px;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.submenu--first {
+	display: none;
+	position: absolute;
+	left: -35px;
+	top: 35px;
+	z-index: 1;
+}
+.submenu--first li {
+	position: relative;
+}
+.submenu--first li a {
+	background: #aaa;
+}
+.submenu--first li a:hover {
+	background: #aef;
+}
+.menu .select {
+	background-color: #aef;
+}
+.submenu--second {
+	display: none;
+	position: absolute;
+	left: 90px;
+	top: 7px;
+}
+.submenu--second li {
+	position: relative;
+}
+.submenu--third {
+	display: none;
+	position: absolute;
+	top: -5px;
+	left: 90px;
+}
+.menu .triangle-down {
+	position: absolute;
+	left: 100px;
+	top: 16px;
+	width: 0;
+	height: 0;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 8px solid black;
+}
+.submenu--first .triangle-down {
+	position: absolute;
+	left: 103px;
+	top: 27px;
+	width: 0;
+	height: 0;
+	border-left: 8px solid black;
+	border-bottom: 4px solid transparent;
+	border-top: 4px solid transparent;
+}
+.submenu--second .triangle-down {
+	position: absolute;
+	left: 107px;
+	top: 16px;
+	width: 0;
+	height: 0;
+	border-left: 8px solid black;
+	border-bottom: 4px solid transparent;
+	border-top: 4px solid transparent;
+}
+.niceCheck {
+	width: 17px;
+	height: 17px;
+	background: url(../img/checkbox-sprite.png);
+	display: inline-block;
+	cursor: pointer;
+	overflow: hidden;
+}
+.niceChecked {
+	background-position: 0 -17px;
+}
+.niceCheck input {
+	margin-left: -1000px;
+}
+label {
+	cursor: pointer;
+}
+#cssCheck1,
+#cssCheck2 {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+}
+.labCheck1,
+.labCheck2 {
+	cursor: pointer;
+}
+.labCheck1:before,
+.labCheck2:before {
+	content: " ";
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url(../img/checkbox-sprite.png);
+	position: relative;
+	top: 3px;
+	margin-left: 15px;
+}
+#cssCheck1:checked + .labCheck1:before,
+#cssCheck2:checked + .labCheck2:before {
+	background-position: 0 -17px;
+}
+.labCheck1:hover:before,
+.labCheck2:hover:before {
+	background-position: 0 -34px;
+}
+#cssCheck1:checked + .labCheck1:hover:before,
+#cssCheck2:checked + .labCheck2:hover:before {
+	background-position: 0 -51px;
+}
+

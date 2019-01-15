@@ -1,0 +1,79 @@
+body {
+	background-color: green;
+}
+
+form {
+	margin-left: 35px;
+}
+
+#set_timer {
+	color: black;
+	margin-left: 200px;
+	display: block;
+	font-size: 150px;
+}
+#btn_start {
+	width: 180px;
+	display: inline-block;
+	margin-left: 200px;
+	padding: 10px 30px;
+	font-family: Tahoma;
+	font-size: 40px;
+	background-color: green;
+	border: 3px solid green;
+	box-shadow: 0 0 5px 5px black;
+	border-radius: 15px;
+	cursor: pointer;
+}
+#btn_pause {
+	display: none;
+	width: 180px;
+	margin-left: 200px;
+	padding: 10px 30px;
+	font-family: Tahoma;
+	font-size: 40px;
+	background-color: green;
+	border: 3px solid green;
+	box-shadow: 0 0 5px 5px black;
+	border-radius: 15px;
+	cursor: pointer;
+}
+#btn_split {
+	width: 180px;
+	display: inline-block;
+	margin-left: 120px;
+	padding: 10px 30px;
+	font-family: Tahoma;
+	font-size: 40px;
+	background-color: green;
+	border: 3px solid green;
+	box-shadow: 0 0 5px 5px black;
+	border-radius: 15px;
+	cursor: pointer;
+}
+#btn_clear {
+	width: 180px;
+	display: inline-block;
+	margin-left: 120px;
+	padding: 10px 30px;
+	font-family: Tahoma;
+	font-size: 40px;
+	background-color: green;
+	border: 3px solid green;
+	box-shadow: 0 0 5px 5px black;
+	border-radius: 15px;
+	cursor: pointer;
+}
+.split_list {
+	list-style: none;
+}
+p {
+	height: 100px;
+	display: none;
+	color: black;
+	margin-top: 5px;
+	padding: 0;
+	margin-bottom: 0;
+	margin-left: 355px;
+	font-size: 70px;
+}

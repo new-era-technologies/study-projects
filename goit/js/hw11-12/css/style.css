@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 800px;
+	margin: 50px auto;
+	font-family: Arial;
+	font-size: 20px;
+	position: relative;
+}
+.carousel__list {
+	list-style: none;
+	width: 10000px;
+	position: relative;
+}
+.carousel__element {
+	display: block;
+	float: left;
+}
+.carousel__element img {
+	max-width: 500px;
+}
+.carousel__element p {
+	text-align: center;
+	font-weight: bold;
+}
+.carousel__hider {
+	margin: 0 10px;
+	width: 500px;
+	overflow: hidden;
+	float: left;
+}
+.carousel__arrow-left,
+.carousel__arrow-right {
+	width: 80px;
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+	display: block;
+	border: 2px solid blue;
+	background-color: #abf;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 135px;
+}
+.carousel__arrow-left:hover,
+.carousel__arrow-right:hover {
+	cursor: pointer;
+	background-color: olive;
+	border: 2px solid blue;
+}
+.name {
+	clear: both;
+	padding-top: 30px;
+	font-family: Tahoma;
+	color: lime;
+}
+.photo {
+	width: 5px;
+	display: block;
+	padding: 5px;
+	color: teal;
+}
+.photo_img {
+	cursor: default;
+	display: none;
+	opacity: 0;
+	position: absolute;
+	top: 410px;
+	left: -200px;
+}
+.info {
+	padding-left: 35px;
+	font-style: italic;
+	font-weight: bold;
+}
+.likes {
+	padding: 5px 5px 5px 15px;
+	color: plum;
+}
+.points {
+	list-style: square;
+	padding-left: 55px;
+	color: plum;
+}
+.tel {
+	padding: 5px;
+}
+.page {
+	color: #3b5998;
+	padding-left: 35px;
+}

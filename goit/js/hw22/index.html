@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-3.1.0.js"></script>
+	<script src="js/template.js"></script>
+	<script src="js/jQuery.easing-plugin.js"></script>
+	<script src="js/dist/test_json.js"></script>
+	<script src="js/dist/script.js"></script>
+	<script type="text/template" id="main">
+		<h1>Mini TEST</h1>
+		<form action="#" method="post">
+			<% for (var i =0; i<data.length; i++) { %>
+			<p class="title_answer"><%= data[i].title%></p>
+			<ul>
+				<li><label><input class="input_ch1" type="checkbox"><%= data[i].question1 %></label></li>
+				<li><label><input class="input_ch2" type="checkbox"><%= data[i].question2 %></label></li>
+				<li><label><input class="input_ch3" type="checkbox"><%= data[i].question3 %></label></li>
+			<% }; %>
+			</ul>
+			<input type="submit" class="input_sub" value="Check Results">
+		</form>
+	</script>
+</head>
+<body>
+	<div class="modal-overlay">
+		<div class="modal">
+			<p id="correct_answers"></p>
+			<p id="bad_answers"></p>
+			<p id="congr"></p>
+			<button id="button_close">CLose</button>
+		</div>
+	</div>
+</body>
+</html>

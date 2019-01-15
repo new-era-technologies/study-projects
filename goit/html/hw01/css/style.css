@@ -1,0 +1,42 @@
+@font-face {
+	font-family: pacmania;
+	src: url(../fonts/pacmania.ttf);
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-color: violet;
+	font-family: pacmania;
+	
+}
+h1 {
+	color: black;
+	margin: 50px 250px 10px;
+	font-size: 30px;
+	font-weight: bold;
+
+}
+.foto {
+	margin: 10px 200px 5px;
+	padding: 50px 80px 1px;
+}
+.job {
+	margin: 1px 300px 1px 420px;
+	padding: 0;
+	font-size: 20px;
+	font-weight: normal;
+}
+.line {
+	border-top: 5px solid orange;
+	margin: 50px;
+}
+ul {
+	list-style: disc;
+}
+#footer {
+	margin:0;
+	padding: 1px 100px;
+	color: red;
+	font-size: 20px;
+	font-weight: normal;
+}

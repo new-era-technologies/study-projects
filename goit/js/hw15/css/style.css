@@ -1,0 +1,10 @@
+.image {
+	text-align: center;
+}
+.image img {
+	max-width: 20%;
+	vertical-align: middle;
+	margin: 5px;
+	border: 2px solid green;
+	box-shadow: 5px 5px 5px grey;
+}

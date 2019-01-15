@@ -1,0 +1,460 @@
+@media screen and (max-width: 479px) and (min-width: 310px) {
+	.header__inside {
+		height: 569px;
+	}
+	.conteiner {
+		max-width: 320px;
+	}
+	.header__top {
+		height: 205px;
+		position: relative;
+	}
+	.logo {
+		float: none;
+		display: block;
+		margin-top: 0;
+		padding-top: 75px;
+		margin-left: 85px;
+		letter-spacing: -0.4px;
+	}
+	nav {
+		float: none;
+		display: block;
+		width: 245px;
+		margin-top: 27px;
+		margin-left: 40px;
+		text-align: right;
+		height: 42px;
+		overflow: hidden;
+	}
+	nav:hover {
+		height: 256px;
+		position: absolute;
+		top: 108px;
+		left: -1px;
+		z-index: 3;
+		background-color: rgb(63,50,71);
+		border: 1px solid #101a20;
+		border-radius: 10px;
+	}
+	.nav__element1,
+	.nav__element2,
+	.nav__element3,
+	.nav__element4,
+	.nav__element5,
+	.nav__element6 {
+		display: block;
+		vertical-align: inherit;
+		text-align: center;
+		line-height: 37px;
+		border: none;
+	}
+	.nav__element1:hover,
+	.nav__element2:hover,
+	.nav__element3:hover,
+	.nav__element4:hover,
+	.nav__element5:hover,
+	.nav__element6:hover {
+		background-color: #29202f;
+	}
+	.nav__link2,
+	.nav__link3,
+	.nav__link4,
+	.nav__link5,
+	.nav__link6 {
+		display: block;
+		line-height: 37px;
+		padding: 0;
+		border-bottom: 2px solid rgb(0,0,0);
+	}
+	.nav__link1 {
+		line-height: 37px;
+		padding: 0;
+		border-bottom: 2px solid #edbfff;
+	}
+	.nav__link1:hover {
+		display: block;
+		padding-bottom: 1px;
+	}
+	.nav__element6 {
+		margin-right: 0;
+		padding-top: 2px;
+		border-top: 1px solid #503d58;
+	}
+	.nav__element5 {
+		margin-right: 0;
+		padding-top: 0;
+		border-bottom: 1px solid rgb(95,72,106);
+		border-top: 1px solid #503d58;
+	}
+	.nav__element4 {
+		margin-right: 0;
+		padding-top: 2px;
+		border-bottom: 1px solid rgb(95,72,106);
+		border-top: 1px solid #503d58;
+	}
+	.nav__element3 {
+		margin-right: 0;
+		padding-top: 0;
+		border-bottom: 1px solid rgb(95,72,106);
+		border-top: 1px solid #503d58;
+	}
+	.nav__element2 {
+		margin-right: 0;
+		padding-top: 1px;
+		border-bottom: 1px solid rgb(95,72,106);
+		border-top: 1px solid #503d58;
+	}
+	.nav__element1 {
+		margin-right: 0;
+		padding-top: 5px;
+		border-bottom: 1px solid rgb(95,72,106);
+	}
+	.header__mid {
+		height: 245px;
+		background-color: rgba(0,0,0,0);
+	}
+	.conteiner_header_mid {
+		max-width: 320px;
+	}
+	.conteiner_header_mid__left {
+		width: auto;
+	}
+	.conteiner_header_mid__left h2 {
+		font-size: 35px;
+		margin-top: -62px;
+		padding-top: 155px;
+		margin-left: 67px;
+		letter-spacing: 0.2px;
+	}
+	.conteiner_header_mid__left h3 {
+		font-size: 19px;
+		margin-top: -6px;
+		margin-left: 67px;
+		padding-right: 0;
+		overflow: hidden;
+		height: 30px;
+		letter-spacing: -0.3px;
+		word-spacing: 0;
+		width: 220px;
+	}
+	.conteiner_header_mid__left p {
+		font-size: 16px;
+		line-height: 27px;
+		margin-top: 6px;
+		margin-left: 44px;
+		width: 275px;
+		height: 100px;
+		letter-spacing: -0.35px;
+		overflow: hidden;
+		display: none;
+	}
+	.conteiner_header_mid__right {
+		display: none;
+	}
+	.conteiner_header_mid__img1 {
+		margin-left: -225px;
+		margin-top: 42px;
+		height: 195px;
+	}
+	.conteiner_header_mid__img2 {
+		top: -10px;
+		left: -167px;
+		height: 305px;
+	}
+	.conteiner_header_mid__img3 {
+		top: 96px;
+		left: -124px;
+		height: 52px;
+	}
+	.radio_header_bottom {
+		margin-top: -19px;
+		margin-left: 123px;
+	}
+	.aside__inside {
+		height: 598px;
+		margin-top: -51px;
+	}
+	.aside__row {
+		margin-top: -33px;
+		margin-left: 7px;
+	}
+	.aside__col1,
+	.aside__col2,
+	.aside__col3 {
+		display: block;
+		width: auto;
+		vertical-align: inherit;
+	}
+	.aside__col1 {
+		margin-left: 0;
+	}
+	.aside__col1 h3 {
+		font-size: 24px;
+		margin-top: 103px;
+	}
+	.aside__col2 h3 {
+		font-size: 24px;
+		margin-top: 18px;
+	}
+	.aside__col3 h3 {
+		font-size: 24px;
+		margin-top: 0;
+		padding-top: 35px;
+		letter-spacing: 0;
+	}
+	.aside__col1 p {
+		margin-top: 3px;
+		height: 75px;
+		overflow: hidden;
+	}
+	.aside__col2 p {
+		margin-top: 4px;
+		margin-right: 15px;
+		height: 75px;
+		overflow: hidden;
+	}
+	.aside__col3 p {
+		margin-top: 3px;
+		margin-right: 20px;
+		height: 75px;
+		overflow: hidden;
+	}
+	.aside__menu1 {
+		margin-top: 1px;
+	}
+	.aside__menu2 {
+		margin-top: 2px;
+		margin-left: 25px;
+		margin-right: 20px;
+	}
+	.aside__menu3 {
+		margin-top: 36px;
+		margin-left: -53px;
+		margin-right: 21px;
+	}
+	.aside__menu2 li .aside__link5 {
+		background-position: 0 0;
+	}
+	.aside__menu2 li .aside__link6 {
+		background-position: 0 0;
+	}
+	.aside__menu2 li .aside__link5:hover {
+		background-position: 0 -29px;
+	}
+	.aside__menu2 li .aside__link6:hover {
+		background-position: 0 -29px;
+	}
+	.aside__menu3 li .aside__link5 {
+		background-position: 0 0;
+	}
+	.aside__menu3 li .aside__link6 {
+		background-position: 0 0;
+	}
+	.aside__menu3 li .aside__link5:hover {
+		background-position: 0 -29px;
+	}
+	.aside__menu3 li .aside__link6:hover {
+		background-position: 0 -29px;
+	}
+	.aside__link1 {
+		margin-top: -1px;
+		margin-left: 227px;
+	}
+	.aside__link2 {
+		margin-top: -1px;
+		margin-left: 227px;
+	}
+	.aside__link3 {
+		margin-top: -1px;
+		margin-left: 227px;
+	}
+	.main__inside {
+		height: 1208px;
+	}
+	.main__top {
+		height: 686px;
+		margin-bottom: 27px;
+		padding-top: 99px;
+	}
+	.main__top .conteiner {
+		display: block;
+	}
+	.main__left {
+		width: auto;
+		display: block;
+		margin-top: -31px;
+	}
+	.main__leftall {
+		margin-top: 0;
+		padding-top: 19px;
+		margin-left: 44px;
+		margin-right: 32px;
+		width: 256px;
+		height: 252px;
+	}
+	.main__left1 img {
+		margin-top: 0;
+		margin-left: 0;
+		position: absolute;
+		top: 18px;
+		left: 23px;
+	}
+	.main__left2 {
+		height: 242px;
+	}
+	.main__left:before {
+		display: none;
+	}
+	.main__left:after {
+		display: none;
+	}
+	.main__left2 h4 b {
+		font-size: 24px;
+		padding-left: 0;
+		letter-spacing: -0.1px;
+	}
+	.main__left2 h4 {
+		width: 90px;
+		font-size: 24px;
+		margin-top: 0;
+		margin-left: -13px;
+		padding-top: 6px;
+		padding-right: 100px;
+		letter-spacing: 0;
+	}
+	.main__left2 p {
+		width: 176px;
+		margin-left: -11px;
+		letter-spacing: -0.3px;
+		margin-top: 4px;
+		padding-right: 0px;
+		height: 170px;
+		overflow: hidden;
+	}
+	.main__radio {
+		margin-left: 140px;
+	}
+	.main__radio [type="radio"] {
+		margin-right: 1px;
+	}
+	.main__right {
+		width: auto;
+		display: block;
+	}
+	.main__rightall {
+		margin-top: -5px;
+		margin-left: 12px;
+	}
+	.main__right a p {
+		margin-left: 21px;
+	}
+	.menu1_main {
+		margin-left: 10px;
+		margin-top: -12px;
+	}
+	.menu1_main__element2 {
+		margin-top: -4px;
+	}
+	.menu1_main__element3 {
+		margin-top: 2px;
+	}
+	.menu2_main {
+		width: 216px;
+		margin-left: 15px;
+		margin-top: -22px;
+	}
+	.menu2_main__element1 h5 {
+		height: 22px;
+		overflow: hidden;
+	}
+	.menu2_main__element1 p {
+		width: 230px;
+		letter-spacing: -0.3px;
+		height: 25px;
+		overflow: hidden;
+	}
+	.menu2_main__element2 h5 {
+		margin-top: -4px;
+		height: 22px;
+		overflow: hidden;
+	}
+	.menu2_main__element2 p {
+		width: 230px;
+		letter-spacing: -0.3px;
+		height: 25px;
+		overflow: hidden;
+	}
+	.menu2_main__element3 h5 {
+		margin-top: 2px;
+		height: 22px;
+		overflow: hidden;
+	}
+	.menu2_main__element3 p {
+		width: 230px;
+		letter-spacing: -0.3px;
+		height: 25px;
+		overflow: hidden;
+	}
+	.main__link1 {
+		display: none;
+	}
+	.main__link2 {
+		display: block;
+		text-shadow: 0.5px 0.9px 0 white;
+		color: #454545;
+		font-family: league_gothic;
+		font-size: 19px;
+		font-weight: 400;
+		line-height: 24px;
+		text-transform: uppercase;
+		text-decoration: none;
+		margin-left: 196px;
+		float: left;
+		margin-top: -6px;
+		letter-spacing: -0.3px;
+	}
+	.menu3_main__element1 {
+		vertical-align: inherit;
+		margin-top: 25px;
+		margin-left: 65px;
+	}
+	.menu3_main__element2 {
+		vertical-align: inherit;
+		margin-top: 10px;
+		margin-left: 43px;
+	}
+	.menu3_main__element3 {
+		vertical-align: inherit;
+		margin-top: 57px;
+		margin-left: 67px;
+	}
+	.menu3_main__element4 {
+		vertical-align: inherit;
+		margin-top: 22px;
+		margin-left: 47px;
+	}
+	.menu3_main__element5 {
+		vertical-align: inherit;
+		margin-top: 38px;
+		margin-left: 38px;
+	}
+	.menu3_main__element6 {
+		vertical-align: inherit;
+		margin-top: 22px;
+		margin-left: 38px;
+	}
+	.article__inside {
+		display: none;
+	}
+	footer {
+		height: 205px;
+	}
+	.menu_footer {
+		display: none;
+	}
+	footer span {
+		margin-top: 30px;
+		margin-right: 88px;
+	}
+}

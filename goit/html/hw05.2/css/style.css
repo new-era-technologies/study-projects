@@ -1,0 +1,100 @@
+body {
+	width: auto;
+	height: auto;
+	background-color: #282828;
+}
+table {
+	margin: 0 auto;
+	margin-top: 70px;
+}
+td {
+	border: 2px solid #253722;
+	background-color: white;
+}
+img {
+	opacity: 0;
+}
+.ots {
+	padding: 1px 0;
+	border-top: none;
+	border-left: none;
+}
+.cada {
+	border-top: none;
+}
+.abra {
+	border-top: none;
+	border-right: none;
+	background-color: #fff170;
+}
+.bra {
+	border-left: none;
+}
+.devyat {
+	padding: 40px 0;
+	background-color: #ff6044;
+}
+.vio {
+	background-color: #fff170;
+	border-right: none;
+}
+.vosem {
+	padding: 0 10px;
+	border-left: none;
+}
+.dvsem {
+	padding: 18px 15px;
+}
+.dvsem1 {
+	padding: 18px 15px;
+	border-right: none;
+}
+.tsem3 {
+	padding: 5px 13px;
+	border-bottom: 2px solid rgba(25,37,22,0.1);
+	border-right: 2px solid rgba(25,37,22,0.1);
+	background-color: #07100d;
+}
+.tsem4 {
+	border-bottom: 2px solid rgba(25,37,22,0.1);
+	border-left: 2px solid rgba(25,37,22,0.1);
+	background-color: #07100d;
+}
+.odin {
+	padding: 2px 30px;
+}
+.via {
+	border-right: none;
+}
+.jeltaya {
+	background-color: #fff170;
+	border-left: none;
+	border-bottom: none;
+}
+.tsem1 {
+	border-top: 2px solid rgba(25,37,22,0.1);
+	border-right: 2px solid rgba(25,37,22,0.1);
+	background-color: #07100d;
+}
+.tsem2 {
+	padding: 5px 13px;
+	border-top: 2px solid rgba(25,37,22,0.1);
+	border-left: 2px solid rgba(25,37,22,0.1);
+	background-color: #07100d;
+}
+.svosem {
+	padding: 0 25px;
+	background-color: #07437f;
+	border-right: none;
+}
+.dsu {
+	border-bottom: none;
+}
+.chernaya {
+	background-color: #07100d;
+}
+.ots1 {
+	padding: 1px 0;
+	border-bottom: none;
+	border-right: none;
+}

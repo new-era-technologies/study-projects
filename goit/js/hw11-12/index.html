@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Carousel jQuery Plugin</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-3.1.0.js"></script>
+	<script src="js/carousel.js"></script>
+	<script src="js/template.js"></script>
+	<script src="js/script.js"></script>
+	<script type="text/template" id="homework">
+		<h2 class="name"><%= name%></h2>
+		<a class="photo" href="#"><img class="photo_img" src="img/radionov.jpg" alt="Радионов" height="230" width="160"><%= photo%>Фото</a>
+		<span class="info"><%= info%></span>
+		<p class="likes"><%= likes%></p>
+		<ul class="points">
+			<li><%= point1%></li>
+			<li><%= point2%></li>
+			<li><%= point3%></li>
+			<li><%= point4%></li>
+		</ul>
+		<p class="tel"><%= tel%></p>
+		<a class="page" href="https://www.facebook.com/vladymyr.radionov" target="_blank"><%= page%></a>
+	</script>
+</head>
+<body>
+	<div class="carousel__arrow-left"><span>Влево</span></div>
+	<div class="carousel__hider">
+		<ul class="carousel__list">
+			<li class="carousel__element"><img src="img/img19.jpg" alt="Картинка 1"><p>Картинка 1</p></li>
+			<li class="carousel__element"><img src="img/img20.jpg" alt="Картинка 2"><p>Картинка 2</p></li>
+			<li class="carousel__element"><img src="img/img21.jpg" alt="Картинка 3"><p>Картинка 3</p></li>
+			<li class="carousel__element"><img src="img/img22.jpg" alt="Картинка 4"><p>Картинка 4</p></li>
+			<li class="carousel__element"><img src="img/img23.jpg" alt="Картинка 5"><p>Картинка 5</p></li>
+			<li class="carousel__element"><img src="img/img24.jpg" alt="Картинка 6"><p>Картинка 6</p></li>
+		</ul>
+	</div>
+	<div class="carousel__arrow-right"><span>Вправо</span></div>
+</body>
+</html>

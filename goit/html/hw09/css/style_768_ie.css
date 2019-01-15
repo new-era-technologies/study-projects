@@ -1,0 +1,360 @@
+@media screen and (max-width: 959px) and (min-width: 768px) {
+	.conteiner {
+		max-width: 768px;
+	}
+	.header__top {
+		height: 245px;
+	}
+	.logo {
+		margin-top: 75px;
+		margin-left: 20px;
+		letter-spacing: -0.4px;
+	}
+	nav {
+		margin-top: 28px;
+		margin-right: 118px;
+	}
+	.conteiner_header_mid {
+		max-width: 768px;
+	}
+	.conteiner_header_mid__left {
+		width: 541px;
+	}
+	.conteiner_header_mid__left h2 {
+		font-size: 50px;
+		margin-top: -52px;
+		padding-top: 155px;
+		margin-left: 44px;
+		letter-spacing: -0.8px;
+	}
+	.conteiner_header_mid__left h3 {
+		font-size: 24px;
+		margin-top: 9px;
+		margin-left: 44px;
+		padding-right: 195px;
+		overflow: hidden;
+		height: 30px;
+		word-spacing: 0;
+	}
+	.conteiner_header_mid__left p {
+		font-size: 16px;
+		line-height: 27px;
+		margin-top: 6px;
+		margin-left: 44px;
+		width: 275px;
+		height: 105px;
+		letter-spacing: -0.35px;
+		overflow: hidden;
+	}
+	.conteiner_header_mid__right {
+		width: 227px;
+		height: 382px;
+		vertical-align: middle;
+	}
+	.conteiner_header_mid__img1 {
+
+		margin-left: -90px;
+	}
+	.conteiner_header_mid__img2 {
+		top: -23px;
+		left: -16px;
+	}
+	.conteiner_header_mid__img3 {
+		top: 126px;
+		left: 44px;
+	}
+	.radio_header_bottom {
+		margin-top: 37px;
+		margin-left: 541px;
+	}
+	.aside__inside {
+		margin-top: -51px;
+	}
+	.aside__row {
+		margin-top: -25px;
+		margin-left: 7px;
+	}
+	.aside__col1 h3 {
+		font-size: 24px;
+		margin-top: 103px;
+	}
+	.aside__col2 h3 {
+		font-size: 24px;
+		margin-top: 103px;
+	}
+	.aside__col3 h3 {
+		font-size: 24px;
+		margin-top: 102px;
+	}
+	.aside__col1 p {
+		margin-top: 1px;
+		height: 145px;
+		overflow: hidden;
+	}
+	.aside__col2 p {
+		margin-top: 2px;
+		margin-right: 15px;
+		height: 145px;
+		overflow: hidden;
+	}
+	.aside__col3 p {
+		margin-top: 3px;
+		margin-right: 10px;
+		height: 145px;
+		overflow: hidden;
+	}
+	.aside__menu2 {
+		margin-left: 25px;
+		margin-right: 19px;
+	}
+	.aside__menu3 {
+		margin-left: 31px;
+		margin-right: 20px;
+	}
+	.aside__menu2 li .aside__link5 {
+		background-position: 0 0;
+	}
+	.aside__menu2 li .aside__link6 {
+		background-position: 0 0;
+	}
+	.aside__menu2 li .aside__link5:hover {
+		background-position: 0 -29px;
+	}
+	.aside__menu2 li .aside__link6:hover {
+		background-position: 0 -29px;
+	}
+	.aside__menu3 li .aside__link5 {
+		background-position: 0 0;
+	}
+	.aside__menu3 li .aside__link6 {
+		background-position: 0 0;
+	}
+	.aside__menu3 li .aside__link5:hover {
+		background-position: 0 -29px;
+	}
+	.aside__menu3 li .aside__link6:hover {
+		background-position: 0 -29px;
+	}
+	.aside__link1 {
+		margin-top: -6px;
+		margin-left: 162px;
+	}
+	.aside__link2 {
+		margin-top: -7px;
+		margin-left: 161px;
+	}
+	.aside__link3 {
+		margin-top: -7px;
+		margin-left: 168px;
+	}
+	.main__inside {
+		height: 561px;
+	}
+	.main__top {
+		height: 385px;
+		margin-bottom: 27px;
+		padding-top: 102px;
+		margin-top: 0;
+	}
+	.main__left {
+		display: table-cell;
+		position: relative;
+		padding-right: 18px;
+	}
+	.main__leftall {
+		margin-top: 0;
+		padding-top: 21px;
+		margin-left: 45px;
+		margin-right: 9px;
+		width: 310px;
+		position: relative;
+		height: 248px;
+	}
+	.main__left1 img {
+		position: absolute;
+		top: 16px;
+		left: -25px;
+		margin-top: 0;
+		margin-left: 0;
+	}
+	.main__left2 {
+		height: 242px;
+	}
+	.main__left:before {
+		display: none;
+	}
+	.main__left:after {
+		display: none;
+	}
+	.main__left2 h4 b {
+		font-size: 24px;
+	}
+	.main__left2 h4 {
+		font-size: 24px;
+		margin-left: -13px;
+		margin-top: 0;
+		padding-top: 6px;
+		width: 90px;
+	}
+	.main__left2 p {
+		letter-spacing: -0.4px;
+		margin-top: 8px;
+		padding-right: 25px;
+		height: 150px;
+		overflow: hidden;
+	}
+	.main__radio {
+		margin-left: 156px;
+		margin-top: 23px;
+	}
+	.main__radio [type="radio"] {
+		margin-right: 1px;
+	}
+	.main__right a p {
+		margin-left: 9px;
+		margin-top: -10px;
+	}
+	.menu1_main {
+		margin-left: 10px;
+		margin-top: -12px;
+	}
+	.menu1_main__element2 {
+		margin-top: -1px;
+	}
+	.menu1_main__element3 {
+		margin-top: -2px;
+	}
+	.menu2_main {
+		width: 267px;
+		margin-left: 15px;
+		margin-top: -22px;
+	}
+	.menu2_main__element1 h5 {
+		width: 290px;
+	}
+	.menu2_main__element2 h5 {
+		width: 290px;
+	}
+	.menu2_main__element3 h5 {
+		width: 290px;
+	}
+	.menu2_main__element1 p {
+		height: 25px;
+		overflow: hidden;
+	}
+	.menu2_main__element2 p {
+		height: 25px;
+		overflow: hidden;
+	}
+	.menu2_main__element3 p {
+		height: 25px;
+		overflow: hidden;
+	}
+	.main__link1 {
+		display: none;
+	}
+	.main__link2 {
+		text-shadow: 0.5px 0.9px 0 white;
+		color: #454545;
+		font-family: league_gothic;
+		font-size: 19px;
+		font-weight: 400;
+		line-height: 24px;
+		text-transform: uppercase;
+		text-decoration: none;
+		margin-left: 247px;
+		float: left;
+		margin-top: -6px;
+		letter-spacing: -0.3px;
+		display: block;
+	}
+	.menu3_main__element1 {
+		margin-left: 23px;
+	}
+	.menu3_main__element2 {
+		margin-left: 43px;
+	}
+	.menu3_main__element3 {
+		margin-left: 38px;
+	}
+	.menu3_main__element4 {
+		margin-left: 47px;
+	}
+	.menu3_main__element5 {
+		margin-left: 40px;
+	}
+	.menu3_main__element6 {
+		margin-left: 38px;
+	}
+	.article__inside {
+		margin-top: 48px;
+	}
+	.article__col1 h3 {
+		display: none;
+	}
+	.article__col1 h4 {
+		text-shadow: 0.5px 0.9px 0 white;
+		color: #454545;
+		font-family: league_gothic;
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 24px;
+		text-transform: uppercase;
+		margin-top: 102px;
+		margin-left: 21px;
+		margin-bottom: 22px;
+		display: block;
+	}
+	.article__col1 span {
+		display: none;
+	}
+	.article__col1 p {
+		margin-top: -13px;
+		margin-left: 21px;
+		padding-right: 30px;
+		height: 170px;
+	}
+	.article__col2 h3 {
+		display: none;
+	}
+	.article__col2 h4 {
+		text-shadow: 0.5px 0.9px 0 white;
+		color: #454545;
+		font-family: league_gothic;
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 24px;
+		text-transform: uppercase;
+		margin-top: 102px;
+		margin-left: 30px;
+		margin-bottom: 22px;
+		display: block;
+	}
+	.article__col2 p {
+		margin-top: -13px;
+		margin-left: 31px;
+	}
+	.article__col3 h3 {
+		font-size: 24px;
+		margin-top: 102px;
+		margin-left: 38px;
+	}
+	.article__col3 p {
+		margin-top: -13px;
+		margin-left: 38px;
+		margin-right: 10px;
+	}
+	footer {
+		height: 205px;
+	}
+	.menu_footer {
+		margin-top: 40px;
+	}
+	.menu_footer__element1 {
+		margin-left: 20px;
+	}
+	footer span {
+		margin-top: 91px;
+		margin-right: 20px;
+	}
+}

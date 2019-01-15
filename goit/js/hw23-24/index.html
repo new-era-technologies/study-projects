@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ToDo-list</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script data-main="js/app.js" src="js/require.js"></script>
+</head>
+<body>
+	
+<script type="text/template" id="wrapper-template">
+	<div class="wrapper">
+	<h1>Make Something</h1>
+		<ul class="item-list"></ul>
+		<div class="changes">
+			<input type="text" class="change-value">
+			<button class="change-btn">Change</button>
+		</div>
+		<div class="controlls">
+			<input type="text" class="item-value">
+			<button class="item-add">Add</button>
+		</div>
+	</div>
+</script>
+
+<script type="text/template" id="list-template">
+	<% for (var i = 0; i < data.length; i++) { %>
+	<li><span data-value="<%= data[i] %>" class="item-delete"></span><span class="li-item"><%= data[i] %></span></li>
+	<% }; %>
+</script>
+
+</body>
+</html>
