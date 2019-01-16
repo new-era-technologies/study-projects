@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Praktika 4 bonus task</title>
+    <style>
+        ul {
+            display: flex;
+            list-style-type: none;
+        }
+        li {
+            width: 100px;
+            height: auto;
+            margin: 10px;
+            border: 1px solid black;
+            text-align: center;
+            cursor: pointer;
+        }
+        .operators {
+            width: 150px;
+            display: none;
+        }
+        .operators__list {
+            justify-content: center;
+            padding: 0;
+        }
+        .operators__list__item {
+            border: none;
+        }
+        .check {
+            margin-left: 100px;
+        }
+        .span {
+            display: block;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li class="test">
+        <span class="span">Test</span>
+    </li>
+    <li class="settings">
+        <span class="span">Settings</span>
+    </li>
+    <li class="operators">
+        <ul class="operators__list">
+            <li class="operators__list__item"><span>+</span></li>
+            <li class="operators__list__item"><span>-</span></li>
+            <li class="operators__list__item"><span>*</span></li>
+            <li class="operators__list__item"><span>/</span></li>
+        </ul>
+    </li>
+    <li class="check">
+        <span class="span">Check</span>
+    </li>
+</ul>
+<script src="./js/script1.js"></script>
+</body>
+</html>

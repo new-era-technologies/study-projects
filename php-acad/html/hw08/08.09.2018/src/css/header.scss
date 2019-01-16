@@ -1,0 +1,1128 @@
+@media (min-width: 1300px) {
+  header {
+    width: 100%;
+    height: 1091px;
+  }
+
+  .header__nav {
+    width: 100%;
+    height: 90px;
+    background: white;
+  }
+
+  .header__clouds {
+    position: relative;
+    &__box {
+      position: absolute;
+      -webkit-animation-duration: 20s;
+      -moz-animation-duration: 20s;
+      -o-animation-duration: 20s;
+      animation-duration: 20s;
+      -webkit-animation-iteration-count: infinite;
+      -moz-animation-iteration-count: infinite;
+      -o-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-timing-function: ease-in-out;
+      -moz-animation-timing-function: ease-in-out;
+      -o-animation-timing-function: ease-in-out;
+      animation-timing-function: ease-in-out;
+      &-first {
+        top: 150px;
+        left: 0;
+        -webkit-animation-name: cloudMoveFirst;
+        -moz-animation-name: cloudMoveFirst;
+        -o-animation-name: cloudMoveFirst;
+        animation-name: cloudMoveFirst;
+      }
+      &-second {
+        top: 230px;
+        right: 215px;
+        -webkit-animation-name: cloudMoveSecond;
+        -moz-animation-name: cloudMoveSecond;
+        -o-animation-name: cloudMoveSecond;
+        animation-name: cloudMoveSecond;
+      }
+      &-third {
+        top: 750px;
+        left: 70px;
+        -webkit-animation-name: cloudMoveThird;
+        -moz-animation-name: cloudMoveThird;
+        -o-animation-name: cloudMoveThird;
+        animation-name: cloudMoveThird;
+      }
+      &-fourth {
+        top: 700px;
+        right: 10px;
+        -webkit-animation-name: cloudMoveFourth;
+        -moz-animation-name: cloudMoveFourth;
+        -o-animation-name: cloudMoveFourth;
+        animation-name: cloudMoveFourth;
+      }
+    }
+  }
+
+  @keyframes cloudMoveFirst {
+    from {
+      left: 0;
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    to {
+      left: 300px;
+      opacity: 0;
+    }
+  }
+
+  @keyframes cloudMoveSecond {
+    from {
+      right: 15px;
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    to {
+      right: 750px;
+      opacity: 0;
+    }
+  }
+
+  @keyframes cloudMoveThird {
+    from {
+      left: 70px;
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    to {
+      left: 500px;
+      opacity: 0;
+    }
+  }
+
+  @keyframes cloudMoveFourth {
+    from {
+      right: 10px;
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    to {
+      right: 300px;
+      opacity: 0;
+    }
+  }
+
+  .header__nav__box {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__menu {
+      &__list {
+        width: 471px;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        &__item {
+          &__link {
+            opacity: 0.84;
+            color: #2d394c;
+            font-family: ubuntu, Arial, sans-serif;
+            font-size: 16px;
+            line-height: 47px;
+            text-transform: uppercase;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
+  .header__info {
+    width: 100%;
+    height: 843px;
+    background: url("../../img/header/bg-header-info.png") center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+
+  .header__info__box {
+    width: 100%;
+    height: 843px;
+    display: flex;
+    align-items: flex-end;
+    &__content {
+      width: 574px;
+      height: 630px;
+      padding-left: 40px;
+      &__title {
+        width: 484px;
+        color: #f7f6f2;
+        font-family: ubuntu-bold, Arial, sans-serif;
+        font-size: 52px;
+        line-height: 72px;
+        text-transform: uppercase;
+      }
+      &__text {
+        &-first {
+          color: #ffffff;
+          font-family: ubuntu-light-italic, Arial, sans-serif;
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 47px;
+          margin-top: 42px;
+        }
+        &-second {
+          color: #f7f7f7;
+          font-family: ubuntu-medium, Arial, sans-serif;
+          font-size: 16px;
+          margin-top: 68px;
+        }
+        &__bold {
+          background-color: #ffce54;
+          padding: 5px 10px;
+          -webkit-border-radius: 3px;
+          -moz-border-radius: 3px;
+          border-radius: 3px;
+        }
+      }
+      &__form {
+        width: 573px;
+        height: 54px;
+        margin-top: 37px;
+        &__email {
+          width: 423px;
+          border: 1px solid rgba(255, 255, 255, 0.15);
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          border-radius: 5px;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          background-color: #ffffff;
+          color: #2d394c;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          padding-left: 28px;
+          font-family: ubuntu, Arial, sans-serif;
+          font-size: 18px;
+          font-weight: 300;
+        }
+        &__email::placeholder {
+          opacity: 0.31;
+        }
+        &__submit {
+          width: 113px;
+          background-color: #77c344;
+          border: none;
+          outline: none;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          border-radius: 5px;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          margin-left: 33px;
+          color: #ffffff;
+          font-family: ubuntu, Arial, sans-serif;
+          font-size: 18px;
+          font-weight: 500;
+          padding: 21px 25px;
+          text-transform: uppercase;
+          cursor: pointer;
+        }
+      }
+    }
+    &__banner {
+      width: 100%;
+      height: 750px;
+      margin-left: 150px;
+    }
+  }
+
+  .header__clients {
+    width: 100%;
+    height: 158px;
+    background: #f8f8f8;
+  }
+
+  .header__clients__box {
+    &__list {
+      list-style-type: none;
+      width: 100%;
+      height: 158px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1299px) {
+  header {
+    width: 100%;
+    height: 896px;
+  }
+
+  .header__nav {
+    width: 100%;
+    height: 70px;
+    background: white;
+  }
+
+  .header__clouds {
+    position: relative;
+    &__box {
+      position: absolute;
+      -webkit-animation-duration: 20s;
+      -moz-animation-duration: 20s;
+      -o-animation-duration: 20s;
+      animation-duration: 20s;
+      -webkit-animation-iteration-count: infinite;
+      -moz-animation-iteration-count: infinite;
+      -o-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-timing-function: ease-in-out;
+      -moz-animation-timing-function: ease-in-out;
+      -o-animation-timing-function: ease-in-out;
+      animation-timing-function: ease-in-out;
+      &-first {
+        top: 150px;
+        left: 0;
+        -webkit-animation-name: cloudMoveFirst;
+        -moz-animation-name: cloudMoveFirst;
+        -o-animation-name: cloudMoveFirst;
+        animation-name: cloudMoveFirst;
+      }
+      &-second {
+        top: 230px;
+        right: 15px;
+        -webkit-animation-name: cloudMoveSecond;
+        -moz-animation-name: cloudMoveSecond;
+        -o-animation-name: cloudMoveSecond;
+        animation-name: cloudMoveSecond;
+      }
+      &-third {
+        top: 600px;
+        left: 70px;
+        -webkit-animation-name: cloudMoveThird;
+        -moz-animation-name: cloudMoveThird;
+        -o-animation-name: cloudMoveThird;
+        animation-name: cloudMoveThird;
+      }
+      &-fourth {
+        top: 615px;
+        right: 10px;
+        -webkit-animation-name: cloudMoveFourth;
+        -moz-animation-name: cloudMoveFourth;
+        -o-animation-name: cloudMoveFourth;
+        animation-name: cloudMoveFourth;
+      }
+    }
+  }
+
+  @keyframes cloudMoveFirst {
+    from {
+      left: 0;
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    to {
+      left: 300px;
+      opacity: 0;
+    }
+  }
+
+  @keyframes cloudMoveSecond {
+    from {
+      right: 15px;
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    to {
+      right: 450px;
+      opacity: 0;
+    }
+  }
+
+  @keyframes cloudMoveThird {
+    from {
+      left: 70px;
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    to {
+      left: 500px;
+      opacity: 0;
+    }
+  }
+
+  @keyframes cloudMoveFourth {
+    from {
+      right: 10px;
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    to {
+      right: 300px;
+      opacity: 0;
+    }
+  }
+
+  .header__nav__box {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__menu {
+      &__list {
+        width: 471px;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        &__item {
+          &__link {
+            opacity: 0.84;
+            color: #2d394c;
+            font-family: ubuntu, Arial, sans-serif;
+            font-size: 16px;
+            line-height: 47px;
+            text-transform: uppercase;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
+  .header__info {
+    width: 100%;
+    height: 668px;
+    background: url("../../img/header/bg-header-info.png") center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+
+  .header__info__box {
+    width: 100%;
+    height: 668px;
+    display: flex;
+    align-items: flex-end;
+    &__content {
+      width: 574px;
+      height: 630px;
+      padding-left: 40px;
+      &__title {
+        width: 484px;
+        color: #f7f6f2;
+        font-family: ubuntu-bold, Arial, sans-serif;
+        font-size: 48px;
+        text-transform: uppercase;
+        margin-top: 168px;
+      }
+      &__text {
+        &-first {
+          color: #ffffff;
+          font-family: ubuntu-light-italic, Arial, sans-serif;
+          font-size: 22px;
+          font-weight: 400;
+          margin-top: 42px;
+        }
+        &-second {
+          color: #f7f7f7;
+          font-family: ubuntu-medium, Arial, sans-serif;
+          font-size: 16px;
+          margin-top: 68px;
+        }
+        &__bold {
+          background-color: #ffce54;
+          padding: 5px 10px;
+          -webkit-border-radius: 3px;
+          -moz-border-radius: 3px;
+          border-radius: 3px;
+        }
+      }
+      &__form {
+        width: 573px;
+        height: 54px;
+        margin-top: 37px;
+        &__email {
+          width: 423px;
+          border: 1px solid rgba(255, 255, 255, 0.15);
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          border-radius: 5px;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          background-color: #ffffff;
+          color: #2d394c;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          padding-left: 28px;
+          font-family: ubuntu, Arial, sans-serif;
+          font-size: 18px;
+          font-weight: 300;
+        }
+        &__email::placeholder {
+          opacity: 0.31;
+        }
+        &__submit {
+          width: 113px;
+          background-color: #77c344;
+          border: none;
+          outline: none;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          border-radius: 5px;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          margin-left: 33px;
+          color: #ffffff;
+          font-family: ubuntu, Arial, sans-serif;
+          font-size: 18px;
+          font-weight: 500;
+          padding: 21px 25px;
+          text-transform: uppercase;
+          cursor: pointer;
+        }
+      }
+    }
+    &__banner {
+      width: 100%;
+      height: 575px;
+      &__img {
+        width: 100%;
+      }
+    }
+  }
+
+  .header__clients {
+    width: 100%;
+    height: 158px;
+    background: #f8f8f8;
+  }
+
+  .header__clients__box {
+    &__list {
+      list-style-type: none;
+      width: 100%;
+      height: 158px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  header {
+    width: 100%;
+    height: 666px;
+  }
+
+  .header__nav {
+    width: 100%;
+    height: 90px;
+    background: white;
+  }
+
+  .header__clouds {
+    position: relative;
+    &__box {
+      position: absolute;
+      -webkit-animation-duration: 20s;
+      -moz-animation-duration: 20s;
+      -o-animation-duration: 20s;
+      animation-duration: 20s;
+      -webkit-animation-iteration-count: infinite;
+      -moz-animation-iteration-count: infinite;
+      -o-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-timing-function: ease-in-out;
+      -moz-animation-timing-function: ease-in-out;
+      -o-animation-timing-function: ease-in-out;
+      animation-timing-function: ease-in-out;
+      &-first {
+        top: 25px;
+        left: 0;
+        -webkit-animation-name: cloudMoveFirst;
+        -moz-animation-name: cloudMoveFirst;
+        -o-animation-name: cloudMoveFirst;
+        animation-name: cloudMoveFirst;
+      }
+      &-second {
+        top: 242px;
+        right: 15px;
+        -webkit-animation-name: cloudMoveSecond;
+        -moz-animation-name: cloudMoveSecond;
+        -o-animation-name: cloudMoveSecond;
+        animation-name: cloudMoveSecond;
+      }
+      &-third {
+        top: 404px;
+        left: 70px;
+        -webkit-animation-name: cloudMoveThird;
+        -moz-animation-name: cloudMoveThird;
+        -o-animation-name: cloudMoveThird;
+        animation-name: cloudMoveThird;
+      }
+      &-fourth {
+        top: 390px;
+        right: 10px;
+        -webkit-animation-name: cloudMoveFourth;
+        -moz-animation-name: cloudMoveFourth;
+        -o-animation-name: cloudMoveFourth;
+        animation-name: cloudMoveFourth;
+      }
+    }
+  }
+
+  @keyframes cloudMoveFirst {
+    from {
+      left: 0;
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    to {
+      left: 300px;
+      opacity: 0;
+    }
+  }
+
+  @keyframes cloudMoveSecond {
+    from {
+      right: 15px;
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    to {
+      right: 700px;
+      opacity: 0;
+    }
+  }
+
+  @keyframes cloudMoveThird {
+    from {
+      left: 70px;
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    to {
+      left: 300px;
+      opacity: 0;
+    }
+  }
+
+  @keyframes cloudMoveFourth {
+    from {
+      right: 10px;
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    to {
+      right: 200px;
+      opacity: 0;
+    }
+  }
+
+  .header__nav__box {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__menu {
+      &__list {
+        width: 471px;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        &__item {
+          &__link {
+            opacity: 0.84;
+            color: #2d394c;
+            font-family: ubuntu, Arial, sans-serif;
+            font-size: 16px;
+            line-height: 47px;
+            text-transform: uppercase;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
+  .header__info {
+    width: 100%;
+    height: 436px;
+    background: url("../../img/header/bg-header-info.png") center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+
+  .header__info__box {
+    width: 100%;
+    display: flex;
+    &__content {
+      width: 64%;
+      padding-top: 70px;
+      padding-left: 10px;
+      &__title {
+        width: 391px;
+        color: #f7f6f2;
+        font-family: ubuntu-bold, Arial, sans-serif;
+        font-size: 42px;
+        text-transform: uppercase;
+      }
+      &__text {
+        &-first {
+          color: #ffffff;
+          font-family: ubuntu-light-italic, Arial, sans-serif;
+          font-size: 20px;
+          font-weight: 400;
+          margin-top: 42px;
+        }
+        &-second {
+          color: #f7f7f7;
+          font-family: ubuntu-medium, Arial, sans-serif;
+          font-size: 16px;
+          margin-top: 50px;
+        }
+        &__bold {
+          background-color: #ffce54;
+          padding: 5px 10px;
+          -webkit-border-radius: 3px;
+          -moz-border-radius: 3px;
+          border-radius: 3px;
+        }
+      }
+      &__form {
+        width: 482px;
+        height: 54px;
+        margin-top: 37px;
+        &__email {
+          width: 360px;
+          border: 1px solid rgba(255, 255, 255, 0.15);
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          border-radius: 5px;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          background-color: #ffffff;
+          color: #2d394c;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          padding-left: 28px;
+          font-family: ubuntu, Arial, sans-serif;
+          font-size: 18px;
+          font-weight: 300;
+        }
+        &__email::placeholder {
+          opacity: 0.31;
+        }
+        &__submit {
+          width: 113px;
+          background-color: #77c344;
+          border: none;
+          outline: none;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          border-radius: 5px;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          margin-left: 5px;
+          color: #ffffff;
+          font-family: ubuntu, Arial, sans-serif;
+          font-size: 18px;
+          font-weight: 500;
+          padding: 16px 20px;
+          text-transform: uppercase;
+          cursor: pointer;
+        }
+      }
+    }
+    &__banner {
+      width: 36%;
+      margin-top: 50px;
+      &__img {
+        width: 276px;
+      }
+    }
+  }
+
+  .header__clients {
+    width: 100%;
+    height: 140px;
+    background: #f8f8f8;
+  }
+
+  .header__clients__box {
+    &__list {
+      list-style-type: none;
+      width: 100%;
+      height: 140px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      &__item {
+        &__link {
+          &__img {
+            width: 80%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  header {
+    width: 100%;
+    height: 1600px;
+  }
+
+  .header__nav {
+    width: 100%;
+    height: 270px;
+    background: white;
+  }
+
+  .header__clouds {
+    position: relative;
+    &__box {
+      position: absolute;
+      -webkit-animation-duration: 20s;
+      -moz-animation-duration: 20s;
+      -o-animation-duration: 20s;
+      animation-duration: 20s;
+      -webkit-animation-iteration-count: infinite;
+      -moz-animation-iteration-count: infinite;
+      -o-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-timing-function: ease-in-out;
+      -moz-animation-timing-function: ease-in-out;
+      -o-animation-timing-function: ease-in-out;
+      animation-timing-function: ease-in-out;
+      &-first {
+        top: 25px;
+        left: 0;
+        -webkit-animation-name: cloudMoveFirst;
+        -moz-animation-name: cloudMoveFirst;
+        -o-animation-name: cloudMoveFirst;
+        animation-name: cloudMoveFirst;
+      }
+      &-second {
+        top: 295px;
+        right: 15px;
+        -webkit-animation-name: cloudMoveSecond;
+        -moz-animation-name: cloudMoveSecond;
+        -o-animation-name: cloudMoveSecond;
+        animation-name: cloudMoveSecond;
+      }
+      &-third {
+        top: 535px;
+        left: 20px;
+        -webkit-animation-name: cloudMoveThird;
+        -moz-animation-name: cloudMoveThird;
+        -o-animation-name: cloudMoveThird;
+        animation-name: cloudMoveThird;
+      }
+      &-fourth {
+        top: 920px;
+        right: 10px;
+        -webkit-animation-name: cloudMoveFourth;
+        -moz-animation-name: cloudMoveFourth;
+        -o-animation-name: cloudMoveFourth;
+        animation-name: cloudMoveFourth;
+      }
+    }
+  }
+
+  @keyframes cloudMoveFirst {
+    from {
+      left: 0;
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    to {
+      left: 270px;
+      opacity: 0;
+    }
+  }
+
+  @keyframes cloudMoveSecond {
+    from {
+      right: 15px;
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    to {
+      right: 270px;
+      opacity: 0;
+    }
+  }
+
+  @keyframes cloudMoveThird {
+    from {
+      left: 20px;
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    to {
+      left: 270px;
+      opacity: 0;
+    }
+  }
+
+  @keyframes cloudMoveFourth {
+    from {
+      right: 10px;
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    to {
+      right: 200px;
+      opacity: 0;
+    }
+  }
+
+  .header__nav__box {
+    width: 100%;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    &__logo {
+      margin-top: 20px;
+    }
+    &__menu {
+      margin-top: 20px;
+      &__list {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        &__item {
+          &__link {
+            opacity: 0.84;
+            color: #2d394c;
+            font-family: ubuntu, Arial, sans-serif;
+            font-size: 16px;
+            line-height: 47px;
+            text-transform: uppercase;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
+  .header__info {
+    width: 100%;
+    background: url("../../img/header/bg-header-info.png") center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+
+  .header__info__box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    &__content {
+      width: 100%;
+      padding-top: 70px;
+      &__title {
+        width: 220px;
+        color: #f7f6f2;
+        font-family: ubuntu-bold, Arial, sans-serif;
+        font-size: 36px;
+        text-transform: uppercase;
+        padding-left: 10px;
+      }
+      &__text {
+        &-first {
+          width: 300px;
+          color: #ffffff;
+          font-family: ubuntu-light-italic, Arial, sans-serif;
+          font-size: 19px;
+          font-weight: 400;
+          margin-top: 42px;
+          padding-left: 10px;
+        }
+        &-second {
+          color: #f7f7f7;
+          font-family: ubuntu-medium, Arial, sans-serif;
+          font-size: 16px;
+          margin-top: 50px;
+          padding-left: 10px;
+        }
+        &__bold {
+          background-color: #ffce54;
+          padding: 5px 10px;
+          -webkit-border-radius: 3px;
+          -moz-border-radius: 3px;
+          border-radius: 3px;
+        }
+      }
+      &__form {
+        width: 300px;
+        margin: 37px auto 0 auto;
+        &__email {
+          width: 300px;
+          border: 1px solid rgba(255, 255, 255, 0.15);
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          border-radius: 5px;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          background-color: #ffffff;
+          color: #2d394c;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          padding-left: 28px;
+          font-family: ubuntu, Arial, sans-serif;
+          font-size: 18px;
+          font-weight: 300;
+        }
+        &__email::placeholder {
+          opacity: 0.31;
+        }
+        &__submit {
+          width: 113px;
+          background-color: #77c344;
+          border: none;
+          outline: none;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          border-radius: 5px;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          display: block;
+          margin: 20px auto 0 auto;
+          color: #ffffff;
+          font-family: ubuntu, Arial, sans-serif;
+          font-size: 18px;
+          font-weight: 500;
+          padding: 16px 20px;
+          text-transform: uppercase;
+          cursor: pointer;
+        }
+      }
+    }
+    &__banner {
+      width: 300px;
+      height: 420px;
+      margin: 50px auto 0 auto;
+      &__img {
+        width: 300px;
+        height: 420px;
+      }
+    }
+  }
+
+  .header__clients {
+    width: 100%;
+    background: #f8f8f8;
+  }
+
+  .header__clients__box {
+    &__list {
+      list-style-type: none;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      &__item {
+        padding: 15px 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,176 @@
+.whatWeDo__second__box {
+  width: 100%;
+  min-height: 1322px;
+  padding-bottom: 130px;
+  background: white;
+  &__someWork {
+    width: 100%;
+  }
+  &__comment {
+    width: 100%;
+    margin-top: 100px;
+  }
+}
+
+.whatWeDo__second__box__someWork__title-first {
+  color: #333333;
+  font-family: kaushan-script, Arial, sans-serif;
+  font-size: 24px;
+  padding-top: 120px;
+  text-align: center;
+}
+
+.whatWeDo__second__box__someWork__title-second {
+  color: #333333;
+  margin-top: 23px;
+  font-family: montserrat-bold, Arial, sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.whatWeDo__second__box__someWork__title_line {
+  width: 60px;
+  height: 3px;
+  margin: 40px auto 0 auto;
+  background-color: #f38181;
+  border: none;
+}
+
+.whatWeDo__second__box__someWork__text {
+  width: 997px;
+  margin: 47px auto 0 auto;
+  text-align: center;
+  color: #999999;
+  font-family: roboto, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.whatWeDo__second__box__someWork__imgBox {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  &__wrapper {
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    &__inner {
+      position: relative;
+      &__img {
+        width: 100%;
+        height: 100%;
+      }
+      &__hovered {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transition: opacity 0.5s, visibility 0.5s;
+        -moz-transition: opacity 0.5s, visibility 0.5s;
+        -ms-transition: opacity 0.5s, visibility 0.5s;
+        -o-transition: opacity 0.5s, visibility 0.5s;
+        transition: opacity 0.5s, visibility 0.5s;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+        &__link {
+          display: block;
+          text-decoration: none;
+          &__box {
+            margin: 0 auto;
+            text-align: center;
+            &__img {
+              margin-top: 25%;
+              margin-bottom: 20px;
+            }
+            &__title {
+              margin-bottom: 17px;
+              color: #ffffff;
+              font-family: montserrat, Arial, sans-serif;
+              font-size: 14px;
+              font-weight: 400;
+              text-transform: uppercase;
+            }
+            &__text {
+              color: #ffffff;
+              font-family: roboto-light-italic, Arial, sans-serif;
+              font-size: 15px;
+              font-weight: 400;
+              line-height: 24px;
+            }
+          }
+        }
+      }
+      &__hovered-long {
+        .whatWeDo__second__box__someWork__imgBox__wrapper__inner__hovered__link {
+          &__box {
+            &__img {
+              margin-top: 65%;
+            }
+          }
+        }
+      }
+    }
+    &__inner:hover {
+      .whatWeDo__second__box__someWork__imgBox__wrapper__inner__hovered {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.whatWeDo__second__box__comment__box {
+  width: 100%;
+  height: 210px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__link {
+    &__arrow-left {
+      margin-left: 23px;
+    }
+    &__arrow-right {
+      margin-right: 23px;
+    }
+  }
+  &__content {
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__box {
+      width: 210px;
+      height: 210px;
+    }
+    &__info {
+      width: 825px;
+      &__text {
+        color: #999999;
+        font-family: roboto-light-italic, Arial, sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+        margin-bottom: 13px;
+      }
+      &__signature_line {
+        width: 60px;
+        height: 3px;
+        margin-right: 10px;
+        margin-bottom: 5px;
+        display: inline-block;
+        background-color: #f38181;
+        border: none;
+      }
+      &__signature_text {
+        color: #333333;
+        font-family: kaushan-script, Arial, sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+      }
+    }
+  }
+}

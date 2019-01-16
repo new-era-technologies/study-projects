@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>contact</title>
+        <link rel="stylesheet" href="../css/form.css" type="text/css">
+    </head>
+    <body>
+    <div class="container">
+        <h1>contact form</h1>
+        <form action="#" method="POST">
+            <div class="contact_field">
+                <p>name: </p>
+                <input type="text" name="name">
+            </div>
+            <div class="contact_field">
+                <p>surname: </p>
+                <input type="text" name="surname">
+            </div>
+            <div class="contact_field">
+                <p>e-mail: </p>
+                <input type="email" name="email">
+            </div>
+            <div class="contact_field">
+                <p>gender: </p>
+                <select name="sex" id="sex">
+                    <option>male</option>
+                    <option>female</option>
+                </select>
+            </div>
+            <div class="contact_field">
+                <input type="checkbox" name="news" id="news" value="true">
+                <label for="news">subscribe to my newsletter</label>
+            </div>
+            <div class="send_data">
+                <input type="submit" value="submit">
+            </div>
+        </form>
+    </div>
+    </body>
+</html>

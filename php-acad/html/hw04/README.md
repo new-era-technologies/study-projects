@@ -1,0 +1,1 @@
+Скачать макет https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/ и сделать html со стилями

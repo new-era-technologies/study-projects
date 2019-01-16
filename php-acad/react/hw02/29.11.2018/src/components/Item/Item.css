@@ -1,0 +1,26 @@
+.Item {
+    width: 30%;
+}
+.Item__link {
+    text-decoration: none;
+}
+.Item__link__title {
+    height: 40px;
+    overflow: hidden;
+    color: black;
+    text-align: left;
+}
+.Item__link__pic {
+    width: 100%;
+}
+.Item__link__descr {
+    height: 45px;
+    overflow: hidden;
+    color: black;
+    text-align: left;
+}
+.Item__link__date {
+    margin: 0 0 10px 0;
+    color: black;
+    text-align: right;
+}

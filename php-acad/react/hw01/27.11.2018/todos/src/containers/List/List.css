@@ -1,0 +1,23 @@
+.Container {
+    width: 300px;
+    margin: 0 auto;
+}
+.List__inp {
+    width: 230px;
+    border-top: 2px solid #AAD9EA;
+    border-right: none;
+    border-bottom: 2px solid #AAD9EA;
+    border-left: none;
+    outline: none;
+    padding: 5px 0;
+}
+.List__btn {
+    margin-left: 15px;
+    border: 2px solid #AAD9EA;
+    border-radius: 4px;
+    background-color: white;
+    color: #AAD9EA;
+    box-shadow: 0 0 1px 0 #AAD9EA;
+    outline: none;
+    padding: 5px 10px;
+}

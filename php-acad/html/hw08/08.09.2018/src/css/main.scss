@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: ubuntu;
+  src: url("../../fonts/ubuntu/ubuntu.ttf");
+}
+
+@font-face {
+  font-family: ubuntu-bold;
+  src: url("../../fonts/ubuntu/ubuntu-bold.ttf");
+}
+
+@font-face {
+  font-family: ubuntu-light-italic;
+  src: url("../../fonts/ubuntu/ubuntu-light-italic.ttf");
+}
+
+@font-face {
+  font-family: ubuntu-medium;
+  src: url("../../fonts/ubuntu/ubuntu-medium.ttf");
+}
+
+body {
+  background-color: yellow;
+}
+
+@media (min-width: 1300px) {
+  .container {
+    width: 1300px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1299px) {
+  .container {
+    width: 1024px;
+    margin: 0 auto;
+  }
+}

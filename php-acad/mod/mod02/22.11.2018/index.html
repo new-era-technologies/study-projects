@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Module 002 js</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div class="container">
+    <div id="tabs" class="tabs">
+        <ul id="tabs_control" class="tabs__control">
+            <li class="tabs__control__item active"><a class="tabs__control__item__link active" href="#">Calculator</a></li>
+            <li class="tabs__control__item"><a class="tabs__control__item__link" href="#">Historical Rates</a></li>
+            <li class="tabs__control__item"><a class="tabs__control__item__link" href="#">Latest Rates</a></li>
+        </ul>
+        <ul id="tabs_content" class="tabs__content">
+            <li id="calc_content" class="tabs__content__item">
+                <p>You can convert the required amount in Euros or U.S. Dollars at the current exchange rate or by choosing a date just type in the field below.</p>
+                <div id="calc">
+                    <div>
+                        <input type="text" id="calc_inp_first">
+                        <select id="calc_sel_first">
+                            <option value="EUR">EUR</option>
+                            <option value="USD">USD</option>
+                        </select>
+                    </div>
+                    <div>
+                        <input type="text" id="calc_inp_second">
+                        <select id="calc_sel_second">
+                            <option value="USD">USD</option>
+                            <option value="EUR">EUR</option>
+                        </select>
+                    </div>
+                    <div>
+                        <input type="radio" id="calc_cur_rate" value="calc_cur" name="calc_rate" checked>
+                        <label for="calc_cur_rate">Current Rate</label>
+                        <input type="radio" id="calc_hist_rate" value="calc_hist" name="calc_rate">
+                        <label for="calc_hist_rate">Rate on Date</label>
+                    </div>
+                    <p class="tabs__content__item__date" id="calc_date">
+                    <label for="calc_hist_date_day">Day</label>
+                    <select id="calc_hist_date_day">
+                        <option value="01">1</option>
+                        <option value="02">2</option>
+                        <option value="03">3</option>
+                        <option value="04">4</option>
+                        <option value="05">5</option>
+                        <option value="06">6</option>
+                        <option value="07">7</option>
+                        <option value="08">8</option>
+                        <option value="09">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                    <label for="calc_hist_date_month">Month</label>
+                    <select id="calc_hist_date_month">
+                        <option value="01">1</option>
+                        <option value="02">2</option>
+                        <option value="03">3</option>
+                        <option value="04">4</option>
+                        <option value="05">5</option>
+                        <option value="06">6</option>
+                        <option value="07">7</option>
+                        <option value="08">8</option>
+                        <option value="09">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    <label for="calc_hist_date_year">Year</label>
+                    <select id="calc_hist_date_year">
+                        <option value="1999">1999</option>
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                        <option value="2003">2003</option>
+                        <option value="2004">2004</option>
+                        <option value="2005">2005</option>
+                        <option value="2006">2006</option>
+                        <option value="2007">2007</option>
+                        <option value="2008">2008</option>
+                        <option value="2009">2009</option>
+                        <option value="2010">2010</option>
+                        <option value="2011">2011</option>
+                        <option value="2012">2012</option>
+                        <option value="2013">2013</option>
+                        <option value="2014">2014</option>
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                    </select>
+                </p>
+                    <button id="check_calc" class="tabs__content__item__button_check">Check equivalent</button>
+                    <div class="preloader">
+                        <img src="./img/spin.gif" alt="spinner">
+                        <p>Please wait</p>
+                    </div>
+                </div>
+            </li>
+            <li id="hist_content" class="tabs__content__item">
+                <div>
+                    <p>You can get historical rates for any day since 1999 just push the button below. Rates are quoted against the Euro by default.</p>
+                    <p class="tabs__content__item__date">
+                        <label for="hist_date_day">Day</label>
+                        <select id="hist_date_day">
+                            <option value="01">1</option>
+                            <option value="02">2</option>
+                            <option value="03">3</option>
+                            <option value="04">4</option>
+                            <option value="05">5</option>
+                            <option value="06">6</option>
+                            <option value="07">7</option>
+                            <option value="08">8</option>
+                            <option value="09">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+                        <label for="hist_date_month">Month</label>
+                        <select id="hist_date_month">
+                            <option value="01">1</option>
+                            <option value="02">2</option>
+                            <option value="03">3</option>
+                            <option value="04">4</option>
+                            <option value="05">5</option>
+                            <option value="06">6</option>
+                            <option value="07">7</option>
+                            <option value="08">8</option>
+                            <option value="09">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                        <label for="hist_date_year">Year</label>
+                        <select id="hist_date_year">
+                            <option value="1999">1999</option>
+                            <option value="2000">2000</option>
+                            <option value="2001">2001</option>
+                            <option value="2002">2002</option>
+                            <option value="2003">2003</option>
+                            <option value="2004">2004</option>
+                            <option value="2005">2005</option>
+                            <option value="2006">2006</option>
+                            <option value="2007">2007</option>
+                            <option value="2008">2008</option>
+                            <option value="2009">2009</option>
+                            <option value="2010">2010</option>
+                            <option value="2011">2011</option>
+                            <option value="2012">2012</option>
+                            <option value="2013">2013</option>
+                            <option value="2014">2014</option>
+                            <option value="2015">2015</option>
+                            <option value="2016">2016</option>
+                            <option value="2017">2017</option>
+                            <option value="2018">2018</option>
+                        </select>
+                    </p>
+                    <button id="check_rates_hist" class="tabs__content__item__button_check">Check Historical Rates</button>
+                    <div id="main_hist">
+                        <div class="preloader">
+                            <img src="./img/spin.gif" alt="spinner">
+                            <p>Please wait</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li id="late_content" class="tabs__content__item">
+                <div>
+                    <p>You can get the latest foreign exchange reference rates just push the button below. Rates are quoted against the Euro by default.</p>
+                    <button id="check_rates_latest" class="tabs__content__item__button_check">Check Latest rates</button>
+                    <div id="main_late">
+                        <div class="preloader">
+                            <img src="./img/spin.gif" alt="spinner">
+                            <p>Please wait</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<script src="./js/script.js"></script>
+</body>
+</html>

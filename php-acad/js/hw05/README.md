@@ -1,0 +1,1 @@
+Вывести поэлементно arguments через forEach

@@ -1,0 +1,24 @@
+.ItemMain {
+    width: 100%;
+    text-align: center;
+}
+.ItemMain__title {
+    color: green;
+}
+.ItemMain__descr {
+    width: 1024px;
+    margin: 10px auto;
+    text-align: justify;
+}
+.ItemMain__date {
+    width: 1024px;
+    margin: 0 auto;
+    text-align: right;
+    color: blue;
+}
+.Links {
+    margin: 10px;
+}
+.Links:last-child {
+    margin-bottom: 30px;
+}

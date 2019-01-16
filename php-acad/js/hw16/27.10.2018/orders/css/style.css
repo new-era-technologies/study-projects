@@ -1,0 +1,28 @@
+div {
+    margin: 15px;
+}
+table {
+    text-align: center;
+}
+tr,th,td {
+    padding: 5px;
+    border: 1px solid black;
+}
+button {
+    margin: 5px;
+}
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -150px;
+    width: 300px;
+    height: 220px;
+    display: none;
+    background-color: yellow;
+    text-align: center;
+}
+input {
+    margin: 10px;
+}

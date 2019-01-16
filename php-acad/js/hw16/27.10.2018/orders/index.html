@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Praktika 6 Orders</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div id="main">
+    <button id="add">Add Order</button>
+    <table id="table">
+        <tr>
+            <th>#id</th>
+            <th>name</th>
+            <th>created date</th>
+            <th>description</th>
+            <th>control</th>
+        </tr>
+    </table>
+</div>
+<div>
+    <form id="form">
+        <div>
+            <label for="order_name">please add name of order</label>
+            <input type="text" id="order_name" value="">
+        </div>
+        <div>
+            <label for="order_description">please add description for this order</label>
+            <input type="text" id="order_description" value="">
+        </div>
+        <div>
+            <input type="submit" id="order_save" value="save">
+        </div>
+    </form>
+</div>
+<script src="./js/script.js"></script>
+</body>
+</html>

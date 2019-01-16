@@ -1,0 +1,20 @@
+.Item {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 1px solid #F7F7F7;
+    padding: 10px 0;
+}
+.Item__btn {
+    background-color: white;
+    color: #E7D8DD;
+    border: 2px solid #E7D8DD;
+    border-radius: 4px;
+    box-shadow: 0 0 1px 0 #E7D8DD;
+    outline: none;
+    padding: 5px 10px;
+}
+.Item__text {
+    margin: 0 0 0 15px;
+    font-weight: 500;
+}

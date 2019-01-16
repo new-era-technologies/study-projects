@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "balls",
+    "created_date": "Wed, 06 Jan 1999 22:00:00 GMT",
+    "description": "shipping balls"
+  },
+  {
+    "id": 2,
+    "name": "book",
+    "created_date": "Thu, 03 Dec 2009 00:00:00 GMT",
+    "description": "javascript book"
+  },
+  {
+    "id": 3,
+    "name": "vinyl",
+    "created_date": "Sat, 12 May 2012 21:00:00 GMT",
+    "description": "dispatch some good vinyl"
+  }
+]

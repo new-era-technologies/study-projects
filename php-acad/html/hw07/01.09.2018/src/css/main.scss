@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url("../../fonts/montserrat/montserrat.ttf");
+}
+
+@font-face {
+  font-family: montserrat-bold;
+  src: url("../../fonts/montserrat/montserrat-bold.ttf");
+}
+
+@font-face {
+  font-family: kaushan-script;
+  src: url("../../fonts/kaushan-script/kaushan-script.ttf");
+}
+
+@font-face {
+  font-family: roboto;
+  src: url("../../fonts/roboto/roboto.ttf");
+}
+
+@font-face {
+  font-family: roboto-light-italic;
+  src: url("../../fonts/roboto/roboto-light-italic.ttf");
+}
+
+@font-face {
+  font-family: roboto-light;
+  src: url("../../fonts/roboto/roboto-light.ttf");
+}
+
+body {
+  background-color: yellow;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}

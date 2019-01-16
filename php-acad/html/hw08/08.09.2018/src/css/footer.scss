@@ -1,0 +1,488 @@
+@media (min-width: 1300px) {
+  .footer__box {
+    width: 100%;
+    height: 625px;
+    &__info {
+      background: white;
+    }
+    &__nav {
+      background: #f9f9f9;
+    }
+  }
+
+  .footer__box__info__content {
+    width: 100%;
+    height: 485px;
+    &__title {
+      color: #5a626e;
+      font-family: ubuntu, Arial, sans-serif;
+      font-size: 40px;
+      font-weight: 500;
+      line-height: 32px;
+      text-transform: uppercase;
+      padding-top: 147px;
+      text-align: center;
+    }
+    &__text {
+      color: #5a626e;
+      font-family: ubuntu-light-italic, Arial, sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 32px;
+      margin-top: 48px;
+      text-align: center;
+    }
+    &__form {
+      text-align: center;
+      margin-top: 63px;
+      &__email {
+        width: 630px;
+        height: 68px;
+        border: 1px solid rgba(0, 0, 0, 0.18);
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        outline: none;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        background: url('../../img/footer/mail-icon.png') 4% 50% no-repeat #ffffff;
+        color: #E6E6E6;
+        font-family: "Open Sans", Arial, sans-serif;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 32px;
+        padding-left: 80px;
+      }
+      &__email::placeholder {
+        opacity: 0.28;
+      }
+      &__email::placeholder:focus {
+        opacity: 1;
+      }
+      &__submit {
+        width: 190px;
+        height: 68px;
+        margin-left: 36px;
+        background-color: #77c344;
+        border: none;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        outline: none;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        color: #ffffff;
+        font-family: ubuntu, Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 32px;
+        text-transform: uppercase;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .footer__box__nav__content {
+    width: 100%;
+    height: 140px;
+    &__box {
+      width: 100%;
+      height: 140px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &__menu {
+        &__list {
+          list-style-type: none;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          &__item {
+            padding: 8px 17px;
+            &__link {
+              opacity: 0.9;
+              color: #4d5664;
+              font-family: ubuntu, Arial, sans-serif;
+              font-size: 14px;
+              font-weight: 300;
+              text-decoration: none;
+            }
+          }
+          &__item:nth-child(5) {
+            border-right: 1px solid rgba(119, 119, 119, 0.36);
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1299px) {
+  .footer__box {
+    width: 100%;
+    height: 625px;
+    &__info {
+      background: white;
+    }
+    &__nav {
+      background: #f9f9f9;
+    }
+  }
+
+  .footer__box__info__content {
+    width: 100%;
+    height: 485px;
+    &__title {
+      color: #5a626e;
+      font-family: ubuntu, Arial, sans-serif;
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 32px;
+      text-transform: uppercase;
+      padding-top: 147px;
+      text-align: center;
+    }
+    &__text {
+      color: #5a626e;
+      font-family: ubuntu-light-italic, Arial, sans-serif;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 32px;
+      margin-top: 48px;
+      text-align: center;
+    }
+    &__form {
+      text-align: center;
+      margin-top: 63px;
+      &__email {
+        width: 630px;
+        height: 68px;
+        border: 1px solid rgba(0, 0, 0, 0.18);
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        outline: none;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        background: url('../../img/footer/mail-icon.png') 4% 50% no-repeat #ffffff;
+        color: #E6E6E6;
+        font-family: "Open Sans", Arial, sans-serif;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 32px;
+        padding-left: 80px;
+      }
+      &__email::placeholder {
+        opacity: 0.28;
+      }
+      &__email::placeholder:focus {
+        opacity: 1;
+      }
+      &__submit {
+        width: 190px;
+        height: 68px;
+        margin-left: 36px;
+        background-color: #77c344;
+        border: none;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        outline: none;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        color: #ffffff;
+        font-family: ubuntu, Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 32px;
+        text-transform: uppercase;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .footer__box__nav__content {
+    width: 100%;
+    height: 140px;
+    &__box {
+      width: 100%;
+      height: 140px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &__menu {
+        &__list {
+          list-style-type: none;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          &__item {
+            padding: 8px 17px;
+            &__link {
+              opacity: 0.9;
+              color: #4d5664;
+              font-family: ubuntu, Arial, sans-serif;
+              font-size: 14px;
+              font-weight: 300;
+              text-decoration: none;
+            }
+          }
+          &__item:nth-child(5) {
+            border-right: 1px solid rgba(119, 119, 119, 0.36);
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .footer__box {
+    width: 100%;
+    height: 400px;
+    &__info {
+      background: white;
+    }
+    &__nav {
+      background: #f9f9f9;
+    }
+  }
+
+  .footer__box__info__content {
+    width: 100%;
+    height: 300px;
+    &__title {
+      color: #5a626e;
+      font-family: ubuntu, Arial, sans-serif;
+      font-size: 32px;
+      font-weight: 500;
+      text-transform: uppercase;
+      padding-top: 55px;
+      text-align: center;
+    }
+    &__text {
+      color: #5a626e;
+      font-family: ubuntu-light-italic, Arial, sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      margin-top: 30px;
+      text-align: center;
+    }
+    &__form {
+      text-align: center;
+      margin-top: 45px;
+      &__email {
+        width: 470px;
+        height: 50px;
+        border: 1px solid rgba(0, 0, 0, 0.18);
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        outline: none;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        background: url('../../img/footer/mail-icon.png') 4% 50% no-repeat #ffffff;
+        color: #E6E6E6;
+        font-family: "Open Sans", Arial, sans-serif;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 32px;
+        padding-left: 80px;
+      }
+      &__email::placeholder {
+        opacity: 0.28;
+      }
+      &__email::placeholder:focus {
+        opacity: 1;
+      }
+      &__submit {
+        width: 130px;
+        height: 50px;
+        margin-left: 36px;
+        background-color: #77c344;
+        border: none;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        outline: none;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        color: #ffffff;
+        font-family: ubuntu, Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 32px;
+        text-transform: uppercase;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .footer__box__nav__content {
+    width: 100%;
+    height: 100px;
+    &__box {
+      width: 100%;
+      height: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &__menu {
+        &__list {
+          list-style-type: none;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          &__item {
+            padding: 8px 10px;
+            &__link {
+              opacity: 0.9;
+              color: #4d5664;
+              font-family: ubuntu, Arial, sans-serif;
+              font-size: 12px;
+              font-weight: 300;
+              text-decoration: none;
+            }
+          }
+          &__item:nth-child(5) {
+            border-right: 1px solid rgba(119, 119, 119, 0.36);
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer__box {
+    width: 100%;
+    height: 753px;
+    &__info {
+      background: white;
+    }
+    &__nav {
+      background: #f9f9f9;
+    }
+  }
+
+  .footer__box__info__content {
+    width: 100%;
+    height: 390px;
+    &__title {
+      color: #5a626e;
+      font-family: ubuntu, Arial, sans-serif;
+      font-size: 30px;
+      font-weight: 500;
+      text-transform: uppercase;
+      padding-top: 55px;
+      text-align: center;
+    }
+    &__text {
+      color: #5a626e;
+      font-family: ubuntu-light-italic, Arial, sans-serif;
+      font-size: 19px;
+      font-weight: 400;
+      margin-top: 30px;
+      text-align: center;
+    }
+    &__form {
+      text-align: center;
+      margin: 45px auto 0 auto;
+      &__email {
+        width: 300px;
+        height: 50px;
+        border: 1px solid rgba(0, 0, 0, 0.18);
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        outline: none;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        background: url('../../img/footer/mail-icon.png') 4% 50% no-repeat #ffffff;
+        color: #E6E6E6;
+        font-family: "Open Sans", Arial, sans-serif;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 32px;
+        padding-left: 80px;
+      }
+      &__email::placeholder {
+        opacity: 0.28;
+      }
+      &__email::placeholder:focus {
+        opacity: 1;
+      }
+      &__submit {
+        width: 130px;
+        height: 50px;
+        margin: 20px auto 0 auto;
+        background-color: #77c344;
+        border: none;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        outline: none;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        display: block;
+        color: #ffffff;
+        font-family: ubuntu, Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 32px;
+        text-transform: uppercase;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .footer__box__nav__content {
+    width: 100%;
+    &__box {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      &__logo {
+        margin-top: 20px;
+      }
+      &__menu {
+        margin-top: 20px;
+        &__list {
+          list-style-type: none;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          &__item {
+            padding: 8px 10px;
+            &__link {
+              opacity: 0.9;
+              color: #4d5664;
+              font-family: ubuntu, Arial, sans-serif;
+              font-size: 14px;
+              font-weight: 300;
+              text-decoration: none;
+            }
+          }
+          &__item:nth-child(5) {
+            border-right: 1px solid rgba(119, 119, 119, 0.36);
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}

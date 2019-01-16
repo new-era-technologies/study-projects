@@ -1,0 +1,96 @@
+.happyClients__box {
+  width: 100%;
+  height: 830px;
+  background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('../../img/work/happyClients/bg-happy-clients.png') center center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.happyClients__box__title-first {
+  color: #333333;
+  font-family: kaushan-script, Arial, sans-serif;
+  font-size: 24px;
+  padding-top: 120px;
+  text-align: center;
+}
+
+.happyClients__box__title-second {
+  color: #333333;
+  margin-top: 23px;
+  font-family: montserrat-bold, Arial, sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.happyClients__box__title_line {
+  width: 60px;
+  height: 3px;
+  margin: 40px auto 0 auto;
+  background-color: #f38181;
+  border: none;
+}
+
+.happyClients__box__comment {
+  width: 100%;
+  height: auto;
+  margin-top: 87px;
+  display: flex;
+  justify-content: space-around;
+  &__wrapper {
+    width: 514px;
+    height: 391px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &__box {
+      width: 516px;
+      height: 161px;
+      display: flex;
+      justify-content: space-between;
+      &__photo {
+        &__img {
+          width: 110px;
+          height: 110px;
+        }
+      }
+      &__text {
+        &__title-first {
+          margin-top: 12px;
+          color: #333333;
+          font-family: montserrat, Arial, sans-serif;
+          font-size: 14px;
+          font-weight: 700;
+          text-transform: uppercase;
+        }
+        &__title-second {
+          margin-top: 15px;
+          color: #333333;
+          font-family: roboto-light-italic, Arial, sans-serif;
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 24px;
+        }
+        &__title_line {
+          margin-top: 17px;
+          width: 60px;
+          height: 3px;
+          background-color: #f38181;
+          border: none;
+        }
+        &__link {
+          text-decoration: none;
+          &__text {
+            margin-top: 24px;
+            width: 373px;
+            color: #999999;
+            font-family: roboto, Arial, sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}

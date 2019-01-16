@@ -1,0 +1,129 @@
+* {
+    font-family: "Lucida Console", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+}
+header {
+    margin: 20px 0;
+}
+nav {
+    width:  100%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+nav>ul {
+    list-style-type: none;
+}
+nav>ul>li {
+    float: left;
+    width: 50%;
+    line-height: 30px;
+    text-align: center;
+    background: rosybrown;
+    border: 1px solid sandybrown;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+nav>ul>li:first-child {
+    border-right: none;
+}
+nav>ul>li:hover {
+    background: sandybrown;
+}
+.nav_link {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+main {
+    clear: both;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    background: sandybrown;
+}
+.main_title {
+    font-size: 25px;
+    font-weight: normal;
+    text-align: left;
+    padding: 20px;
+}
+.goods {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.goods_item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid transparent;
+}
+.goods_item:hover {
+    border: 1px solid black;
+}
+.goods_link {
+    color: black;
+    text-decoration: none;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s;
+}
+.goods_link:hover {
+    color: aqua;
+}
+figure {
+    width: 150px;
+    height: 187px;
+}
+figcaption {
+    margin: 2px;
+    text-align: center;
+}
+p {
+    font-size: 14px;
+    margin: 2px;
+    text-align: center;
+}
+img {
+    width: 150px;
+    height: 150px;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    background: sandybrown;
+    clear: both;
+}
+.footer_list {
+    list-style-type: none;
+    width: 100%;
+    line-height: 50px;
+}
+.footer_list>li {
+    float: left;
+    width: 50%;
+}
+.footer_list>li:last-child {
+    text-align: center;
+}
+.footer_link {
+    display: inline;
+    color: black;
+    text-decoration: none;
+}
+.footer_link__first {
+    padding-left: 20px;
+    font-size: 25px;
+}
+.footer_link__second:hover {
+    text-decoration: underline;
+}

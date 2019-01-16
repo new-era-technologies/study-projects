@@ -1,0 +1,15 @@
+.form__wrapper {
+  background-color: indianred;
+  &__title {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  &__item {
+    padding: 15px 0 15px 30px;
+  }
+  input,
+  select {
+    margin-left: 5px;
+  }
+}

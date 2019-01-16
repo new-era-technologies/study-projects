@@ -1,0 +1,58 @@
+.contact {
+  width: 300px;
+  height: 420px;
+  margin: 50px auto 0 auto;
+  color: white;
+  background-color: #BD5D37;
+  border: 1px solid black;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  &__title {
+    font-family: raleway, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 25px 0;
+  }
+  &__form {
+    &__field {
+      font-family: raleway, Arial, sans-serif;
+      text-align: right;
+      margin-top: 30px;
+      margin-right: 30px;
+      &__text, &__select {
+        padding: 5px 0;
+        border: 1px solid #E1D7CD;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+      }
+      &__text:hover, &__select:hover {
+        border: 1px solid black;
+      }
+      &__checkbox, label {
+        font-size: 18px;
+      }
+      &__send_data {
+        margin-top: 20px;
+        text-align: center;
+        &__submit {
+          font-size: 20px;
+          padding: 5px 10px;
+          border: 1px solid #E1D7CD;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          border-radius: 5px;
+          background: white;
+          cursor: pointer;
+        }
+        &__submit:hover {
+          background: #E1D7CD;
+          border: 1px solid black;
+        }
+      }
+    }
+  }
+}

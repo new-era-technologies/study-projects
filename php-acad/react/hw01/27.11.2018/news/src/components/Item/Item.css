@@ -1,0 +1,32 @@
+.Item {
+     width: 30%;
+ }
+.Item__link {
+    text-decoration: none;
+}
+.Item__link__pic {
+    width: 100%;
+    height: 260px;
+}
+.Item__link__title {
+    height: 40px;
+    overflow: hidden;
+    color: black;
+    text-align: left;
+}
+.Item__link__descr {
+    height: 65px;
+    overflow: hidden;
+    color: black;
+    text-align: left;
+}
+.Item__link__sign {
+    display: flex;
+    justify-content: space-between;
+}
+.Item__link__sign__date {
+    color: black;
+}
+.Item__link__sign__author {
+    color: #1b5288;
+}
