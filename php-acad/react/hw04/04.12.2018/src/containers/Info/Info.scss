@@ -1,0 +1,234 @@
+.Info {
+  margin-top: 120px;
+  background-color: #d45e5e;
+  position: relative;
+
+  &__container {
+    &__bio {
+      display: block;
+
+      &__person {
+        display: flex;
+
+        &__img-box {
+          width: 137px;
+          position: relative;
+
+          &__img {
+            border: 7px solid white;
+            position: absolute;
+            top: -58px;
+          }
+        }
+
+        &__title-box {
+          margin: 15px 0 40px 28px;
+
+          &__name {
+            margin: 0 0 7px 0;
+            padding: 0;
+            color: #ffffff;
+            font-family: cambria-ital;
+            font-weight: 400;
+          }
+
+          &__geo-box {
+            display: flex;
+            align-items: center;
+
+            &__text {
+              margin: 0 0 0 10px;
+              color: #ffffff;
+              font-family: pt-sans-reg;
+            }
+          }
+        }
+      }
+
+      &__text {
+        margin: 0;
+        color: #ffffff;
+        font-family: pt-sans-reg;
+        line-height: 20px;
+      }
+    }
+
+    &__soc-links {
+      width: 110px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+    }
+
+    &__skills {
+      &__title {
+        color: #ffffff;
+        font-family: cambria-reg;
+        font-weight: 400;
+      }
+
+      &__list {
+        margin: 30px 0 0 0;
+        padding: 0;
+        list-style-type: none;
+
+        &__item {
+          display: flex;
+          align-items: center;
+
+          &__title {
+            width: 20px;
+            color: #ffffff;
+            font-family: pt-sans-reg;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 555px) and (max-width: 966px) {
+  .Info {
+    height: 730px;
+
+    &__container {
+      &__bio {
+        padding-left: 35px;
+
+        &__person {
+          &__title-box {
+            &__name {
+              font-size: 29px;
+            }
+
+            &__geo-box {
+              &__text {
+                font-size: 17px;
+              }
+            }
+          }
+        }
+
+        &__text {
+          width: 520px;
+          font-size: 15px;
+        }
+      }
+
+      &__soc-links {
+        margin: 56px 0 80px 0;
+        padding-left: 38px;
+
+        &__link {
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          margin-right: 75px;
+
+          &__text {
+            margin-left: 15px;
+            color: #ffffff;
+            font-family: pt-sans-reg;
+            font-size: 17px;
+          }
+        }
+      }
+
+      &__skills {
+        padding-left: 47px;
+
+        &__title {
+          margin: 45px 0 0 0;
+          font-size: 30px;
+        }
+
+        &__list {
+          list-style-type: none;
+
+          &__item {
+            &__title {
+              width: 28px;
+              margin: 0 15px 0 0;
+              font-size: 30px;
+            }
+
+            &__img {
+              height: 17px;
+            }
+          }
+        }
+      }
+    }
+
+    &__line {
+      width: 100%;
+      height: 1px;
+      position: absolute;
+      top: 56%;
+      background-color: #ffffff;
+      border: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 967px) {
+  .Info {
+    height: 260px;
+
+    &__container {
+      display: flex;
+
+      &__bio {
+        width: 586px;
+
+        &__person {
+          &__title-box {
+            &__name {
+              font-size: 25px;
+            }
+
+            &__geo-box {
+              &__text {
+                font-size: 13px;
+              }
+            }
+          }
+        }
+
+        &__text {
+          width: 586px;
+          font-size: 13px;
+        }
+      }
+
+      &__soc-links {
+        margin-top: 30px;
+        margin-left: -110px;
+
+        &__link {
+          margin-right: 27px;
+        }
+      }
+
+      &__skills {
+        margin-left: 77px;
+
+        &__title {
+          margin: 62px 0 30px 0;
+          font-size: 25px;
+        }
+
+        &__list {
+          list-style-type: none;
+
+          &__item {
+            &__title {
+              margin: 0 10px 0 0;
+              font-size: 19px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
