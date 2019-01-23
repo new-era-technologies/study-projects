@@ -1,0 +1,24 @@
+.Menu {
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    &__item {
+      margin: 0 40px;
+
+      &__link {
+        color: #fff;
+        display: block;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.active {
+  color: #22ee22;
+}

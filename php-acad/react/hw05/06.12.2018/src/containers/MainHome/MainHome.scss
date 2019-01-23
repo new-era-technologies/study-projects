@@ -1,0 +1,23 @@
+.MainHome {
+  &__box {
+    width: 100%;
+    height: 100%;
+
+    .swiper-container {
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+
+      .swiper-wrapper {
+        display: flex;
+
+        .MainHome__box__item {
+          width: 100%;
+          height: 100vh;
+          display: block;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.Header {
+  width: 100%;
+  position: relative;
+  background-color: transparent;
+
+  &__container {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    align-items: center;
+
+    &__title {
+      width: 70%;
+      padding-left: 100px;
+      color: #fff;
+      font-size: 20px;
+    }
+
+    .Menu {
+      width: 30%;
+    }
+  }
+}
