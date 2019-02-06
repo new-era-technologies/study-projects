@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Js toDo List /indexedDB</title>
+</head>
+<body>
+<div id="main">
+    <h4>ToDo List</h4>
+    <div class="outer">
+        <input type="checkbox" id="inp_item 1" class="default">
+        <label for="inp_item 1">todo #1</label>
+    </div>
+    <div class="outer">
+        <input type="checkbox" id="inp_item 2"  class="default">
+        <label for="inp_item 2">todo #2</label>
+    </div>
+    <div class="outer">
+        <input type="checkbox" id="inp_item 3"  class="default">
+        <label for="inp_item 3">todo #3</label>
+    </div>
+    <button id="add">Add Item</button>
+</div>
+<div>
+    <form id="form">
+        <div>
+            <label for="item_name">please add item to list</label>
+            <input type="text" id="item_name" value="">
+        </div>
+        <div>
+            <input type="submit" id="item_save" value="save">
+        </div>
+    </form>
+</div>
+<script src="./js/script.js"></script>
+</body>
+</html>

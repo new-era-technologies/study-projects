@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pusher Chat</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="https://js.pusher.com/4.3/pusher.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div id="login-box" class="login-box">
+        <h2 class="login-box__title">Pusher Chat</h2>
+        <form class="login-box__form">
+            <input id="text-login" class="login-box__form__text" type="text" placeholder="Name">
+            <input id="submit-login" class="login-box__form__submit" type="submit" value="Log in">
+        </form>
+    </div>
+    <div id="chat-box" class="chat-box">
+        <h2 class="chat-box__title">Pusher Chat</h2>
+        <div id="messages-list" class="chat-box__messages-list">
+            <script id="messages-template" type="text/x-template">
+                <div class="chat-box__messages-list__item">
+                    <div class="chat-box__messages-list__item__name">{{name}}</div>
+                    <div class="chat-box__messages-list__item__text">{{message}}</div>
+                </div>
+            </script>
+        </div>
+        <form id="chat-box-form" class="chat-box__form">
+            <textarea id="text-chat" class="chat-box__form__text" name="text" cols="50" rows="2"></textarea>
+            <input id="submit-chat" class="chat-box__form__submit" type="submit" value="Send">
+        </form>
+    </div>
+</div>
+<script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>

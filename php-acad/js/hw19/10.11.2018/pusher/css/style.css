@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+body {
+    background-color: #808080;
+}
+.container {
+    width: 250px;
+    height: 100%;
+    margin: 50px auto 0;
+}
+.login-box,
+.chat-box {
+    display: block;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 5px 2px #545454;
+}
+.login-box__title,
+.chat-box__title {
+    padding-top: 30px;
+    color: #b29999;
+}
+.chat-box__title {
+    padding-bottom: 30px;
+}
+.login-box__form,
+.chat-box__form {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.login-box__form__text,
+.login-box__form__submit,
+.chat-box__form__text {
+    width: 80%;
+    height: 30px;
+    margin: 0 auto 20px;
+    padding: 0 5px;
+    display: block;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+}
+.login-box__form__submit:hover,
+.chat-box__form__submit:hover {
+    background-color: #808080;
+    cursor: pointer;
+}
+.chat-box {
+    display: none;
+}
+.chat-box__messages-list {
+    height: 240px;
+    margin: 0 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    overflow-y: auto;
+}
+.message-inner {
+    background-color: #f1f1aa;
+    text-align: right;
+}
+.message-outer {
+    background-color: #f1ccff;
+    text-align: left;
+}
+.chat-box__messages-list__item {
+    padding: 5px;
+}
+.chat-box__messages-list__item__name {
+    color: #f4b60d;
+    margin: 0 15px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.chat-box__messages-list__item__text {
+    word-wrap: break-word;
+    text-align: left;
+}
+.chat-box__form {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0;
+}
+.chat-box__form__text,
+.chat-box__form__submit {
+    width: 70%;
+    height: 50px;
+    margin-left: 10px;
+    padding: 0 5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+}
+.chat-box__form__submit {
+    width: 25%;
+    height: 25px;
+    margin: 0 10px;
+}
