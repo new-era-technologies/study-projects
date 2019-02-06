@@ -1,0 +1,10 @@
+.Item__title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Item__tag {
+    padding-left: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}

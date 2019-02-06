@@ -1,0 +1,4329 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Container renders properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App
+    activeStep="all"
+    sdksList={
+      Array [
+        Object {
+          "tag": Array [
+            "Tag1",
+            "Tag3",
+          ],
+          "title": "SDK 1",
+        },
+        Object {
+          "tag": Array [
+            "Tag4",
+          ],
+          "title": "SDK 2",
+        },
+        Object {
+          "tag": Array [
+            "Tag1",
+            "Tag3",
+            "Tag5",
+          ],
+          "title": "SDK 3",
+        },
+        Object {
+          "tag": Array [
+            "Tag2",
+          ],
+          "title": "SDK 4",
+        },
+        Object {
+          "tag": Array [
+            "Tag3",
+          ],
+          "title": "SDK 5",
+        },
+        Object {
+          "tag": Array [
+            "Tag2",
+            "Tag4",
+          ],
+          "title": "SDK 6",
+        },
+        Object {
+          "tag": Array [
+            "Tag1",
+            "Tag3",
+          ],
+          "title": "SDK 7",
+        },
+        Object {
+          "tag": Array [
+            "Tag1",
+            "Tag2",
+          ],
+          "title": "SDK 8",
+        },
+        Object {
+          "tag": Array [
+            "Tag1",
+            "Tag5",
+          ],
+          "title": "SDK 9",
+        },
+      ]
+    }
+    selectedOption=""
+    srchList={Array []}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="App__container"
+      >
+        <h1
+          className="App__title"
+        >
+          SDKs
+        </h1>
+        <div
+          className="App__container__box"
+        >
+          <div
+            className="App__container__filter-box"
+          >
+            <form
+              action="#"
+            >
+              <div
+                className="App__container__filter-box__item"
+              >
+                <input
+                  checked={false}
+                  className="App__container__filter-box__item__rad"
+                  id="radioSearch"
+                  name="tag"
+                  onChange={[Function]}
+                  type="radio"
+                />
+                <div
+                  className="App__container__filter-box__item__srch-box"
+                >
+                  <img
+                    alt="mag"
+                    className="App__container__filter-box__item__srch-box__img"
+                    src="mag.png"
+                  />
+                  <input
+                    className="App__container__filter-box__item__srch-box__srch"
+                    id="searchText"
+                    onChange={[Function]}
+                    onClick={[Function]}
+                    placeholder="Search"
+                    type="search"
+                  />
+                </div>
+              </div>
+              <label
+                className="App__container__filter-box__item"
+                htmlFor="all"
+              >
+                <input
+                  className="App__container__filter-box__item__rad"
+                  defaultChecked={true}
+                  id="all"
+                  name="tag"
+                  onChange={[Function]}
+                  type="radio"
+                  value="all"
+                />
+                All
+              </label>
+              <label
+                className="App__container__filter-box__item"
+                htmlFor="Tag1"
+              >
+                <input
+                  className="App__container__filter-box__item__rad"
+                  id="Tag1"
+                  name="tag"
+                  onChange={[Function]}
+                  type="radio"
+                  value="Tag1"
+                />
+                Tag1
+              </label>
+              <label
+                className="App__container__filter-box__item"
+                htmlFor="Tag2"
+              >
+                <input
+                  className="App__container__filter-box__item__rad"
+                  id="Tag2"
+                  name="tag"
+                  onChange={[Function]}
+                  type="radio"
+                  value="Tag2"
+                />
+                Tag2
+              </label>
+              <label
+                className="App__container__filter-box__item"
+                htmlFor="Tag3"
+              >
+                <input
+                  className="App__container__filter-box__item__rad"
+                  id="Tag3"
+                  name="tag"
+                  onChange={[Function]}
+                  type="radio"
+                  value="Tag3"
+                />
+                Tag3
+              </label>
+              <label
+                className="App__container__filter-box__item"
+                htmlFor="Tag4"
+              >
+                <input
+                  className="App__container__filter-box__item__rad"
+                  id="Tag4"
+                  name="tag"
+                  onChange={[Function]}
+                  type="radio"
+                  value="Tag4"
+                />
+                Tag4
+              </label>
+              <label
+                className="App__container__filter-box__item"
+                htmlFor="Tag5"
+              >
+                <input
+                  className="App__container__filter-box__item__rad"
+                  id="Tag5"
+                  name="tag"
+                  onChange={[Function]}
+                  type="radio"
+                  value="Tag5"
+                />
+                Tag5
+              </label>
+            </form>
+          </div>
+          <div
+            className="App__container__display-box"
+          >
+            <ul
+              className="App__container__display-box__list"
+            >
+              <li
+                className="App__container__display-box__list__item"
+              >
+                <Item
+                  item={
+                    Object {
+                      "tag": Array [
+                        "Tag1",
+                        "Tag3",
+                      ],
+                      "title": "SDK 1",
+                    }
+                  }
+                />
+              </li>
+              <li
+                className="App__container__display-box__list__item"
+              >
+                <Item
+                  item={
+                    Object {
+                      "tag": Array [
+                        "Tag4",
+                      ],
+                      "title": "SDK 2",
+                    }
+                  }
+                />
+              </li>
+              <li
+                className="App__container__display-box__list__item"
+              >
+                <Item
+                  item={
+                    Object {
+                      "tag": Array [
+                        "Tag1",
+                        "Tag3",
+                        "Tag5",
+                      ],
+                      "title": "SDK 3",
+                    }
+                  }
+                />
+              </li>
+              <li
+                className="App__container__display-box__list__item"
+              >
+                <Item
+                  item={
+                    Object {
+                      "tag": Array [
+                        "Tag2",
+                      ],
+                      "title": "SDK 4",
+                    }
+                  }
+                />
+              </li>
+              <li
+                className="App__container__display-box__list__item"
+              >
+                <Item
+                  item={
+                    Object {
+                      "tag": Array [
+                        "Tag3",
+                      ],
+                      "title": "SDK 5",
+                    }
+                  }
+                />
+              </li>
+              <li
+                className="App__container__display-box__list__item"
+              >
+                <Item
+                  item={
+                    Object {
+                      "tag": Array [
+                        "Tag2",
+                        "Tag4",
+                      ],
+                      "title": "SDK 6",
+                    }
+                  }
+                />
+              </li>
+              <li
+                className="App__container__display-box__list__item"
+              >
+                <Item
+                  item={
+                    Object {
+                      "tag": Array [
+                        "Tag1",
+                        "Tag3",
+                      ],
+                      "title": "SDK 7",
+                    }
+                  }
+                />
+              </li>
+              <li
+                className="App__container__display-box__list__item"
+              >
+                <Item
+                  item={
+                    Object {
+                      "tag": Array [
+                        "Tag1",
+                        "Tag2",
+                      ],
+                      "title": "SDK 8",
+                    }
+                  }
+                />
+              </li>
+              <li
+                className="App__container__display-box__list__item"
+              >
+                <Item
+                  item={
+                    Object {
+                      "tag": Array [
+                        "Tag1",
+                        "Tag5",
+                      ],
+                      "title": "SDK 9",
+                    }
+                  }
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>,
+      "className": "App",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1
+            className="App__title"
+          >
+            SDKs
+          </h1>,
+          <div
+            className="App__container__box"
+          >
+            <div
+              className="App__container__filter-box"
+            >
+              <form
+                action="#"
+              >
+                <div
+                  className="App__container__filter-box__item"
+                >
+                  <input
+                    checked={false}
+                    className="App__container__filter-box__item__rad"
+                    id="radioSearch"
+                    name="tag"
+                    onChange={[Function]}
+                    type="radio"
+                  />
+                  <div
+                    className="App__container__filter-box__item__srch-box"
+                  >
+                    <img
+                      alt="mag"
+                      className="App__container__filter-box__item__srch-box__img"
+                      src="mag.png"
+                    />
+                    <input
+                      className="App__container__filter-box__item__srch-box__srch"
+                      id="searchText"
+                      onChange={[Function]}
+                      onClick={[Function]}
+                      placeholder="Search"
+                      type="search"
+                    />
+                  </div>
+                </div>
+                <label
+                  className="App__container__filter-box__item"
+                  htmlFor="all"
+                >
+                  <input
+                    className="App__container__filter-box__item__rad"
+                    defaultChecked={true}
+                    id="all"
+                    name="tag"
+                    onChange={[Function]}
+                    type="radio"
+                    value="all"
+                  />
+                  All
+                </label>
+                <label
+                  className="App__container__filter-box__item"
+                  htmlFor="Tag1"
+                >
+                  <input
+                    className="App__container__filter-box__item__rad"
+                    id="Tag1"
+                    name="tag"
+                    onChange={[Function]}
+                    type="radio"
+                    value="Tag1"
+                  />
+                  Tag1
+                </label>
+                <label
+                  className="App__container__filter-box__item"
+                  htmlFor="Tag2"
+                >
+                  <input
+                    className="App__container__filter-box__item__rad"
+                    id="Tag2"
+                    name="tag"
+                    onChange={[Function]}
+                    type="radio"
+                    value="Tag2"
+                  />
+                  Tag2
+                </label>
+                <label
+                  className="App__container__filter-box__item"
+                  htmlFor="Tag3"
+                >
+                  <input
+                    className="App__container__filter-box__item__rad"
+                    id="Tag3"
+                    name="tag"
+                    onChange={[Function]}
+                    type="radio"
+                    value="Tag3"
+                  />
+                  Tag3
+                </label>
+                <label
+                  className="App__container__filter-box__item"
+                  htmlFor="Tag4"
+                >
+                  <input
+                    className="App__container__filter-box__item__rad"
+                    id="Tag4"
+                    name="tag"
+                    onChange={[Function]}
+                    type="radio"
+                    value="Tag4"
+                  />
+                  Tag4
+                </label>
+                <label
+                  className="App__container__filter-box__item"
+                  htmlFor="Tag5"
+                >
+                  <input
+                    className="App__container__filter-box__item__rad"
+                    id="Tag5"
+                    name="tag"
+                    onChange={[Function]}
+                    type="radio"
+                    value="Tag5"
+                  />
+                  Tag5
+                </label>
+              </form>
+            </div>
+            <div
+              className="App__container__display-box"
+            >
+              <ul
+                className="App__container__display-box__list"
+              >
+                <li
+                  className="App__container__display-box__list__item"
+                >
+                  <Item
+                    item={
+                      Object {
+                        "tag": Array [
+                          "Tag1",
+                          "Tag3",
+                        ],
+                        "title": "SDK 1",
+                      }
+                    }
+                  />
+                </li>
+                <li
+                  className="App__container__display-box__list__item"
+                >
+                  <Item
+                    item={
+                      Object {
+                        "tag": Array [
+                          "Tag4",
+                        ],
+                        "title": "SDK 2",
+                      }
+                    }
+                  />
+                </li>
+                <li
+                  className="App__container__display-box__list__item"
+                >
+                  <Item
+                    item={
+                      Object {
+                        "tag": Array [
+                          "Tag1",
+                          "Tag3",
+                          "Tag5",
+                        ],
+                        "title": "SDK 3",
+                      }
+                    }
+                  />
+                </li>
+                <li
+                  className="App__container__display-box__list__item"
+                >
+                  <Item
+                    item={
+                      Object {
+                        "tag": Array [
+                          "Tag2",
+                        ],
+                        "title": "SDK 4",
+                      }
+                    }
+                  />
+                </li>
+                <li
+                  className="App__container__display-box__list__item"
+                >
+                  <Item
+                    item={
+                      Object {
+                        "tag": Array [
+                          "Tag3",
+                        ],
+                        "title": "SDK 5",
+                      }
+                    }
+                  />
+                </li>
+                <li
+                  className="App__container__display-box__list__item"
+                >
+                  <Item
+                    item={
+                      Object {
+                        "tag": Array [
+                          "Tag2",
+                          "Tag4",
+                        ],
+                        "title": "SDK 6",
+                      }
+                    }
+                  />
+                </li>
+                <li
+                  className="App__container__display-box__list__item"
+                >
+                  <Item
+                    item={
+                      Object {
+                        "tag": Array [
+                          "Tag1",
+                          "Tag3",
+                        ],
+                        "title": "SDK 7",
+                      }
+                    }
+                  />
+                </li>
+                <li
+                  className="App__container__display-box__list__item"
+                >
+                  <Item
+                    item={
+                      Object {
+                        "tag": Array [
+                          "Tag1",
+                          "Tag2",
+                        ],
+                        "title": "SDK 8",
+                      }
+                    }
+                  />
+                </li>
+                <li
+                  className="App__container__display-box__list__item"
+                >
+                  <Item
+                    item={
+                      Object {
+                        "tag": Array [
+                          "Tag1",
+                          "Tag5",
+                        ],
+                        "title": "SDK 9",
+                      }
+                    }
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>,
+        ],
+        "className": "App__container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "SDKs",
+            "className": "App__title",
+          },
+          "ref": null,
+          "rendered": "SDKs",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="App__container__filter-box"
+              >
+                <form
+                  action="#"
+                >
+                  <div
+                    className="App__container__filter-box__item"
+                  >
+                    <input
+                      checked={false}
+                      className="App__container__filter-box__item__rad"
+                      id="radioSearch"
+                      name="tag"
+                      onChange={[Function]}
+                      type="radio"
+                    />
+                    <div
+                      className="App__container__filter-box__item__srch-box"
+                    >
+                      <img
+                        alt="mag"
+                        className="App__container__filter-box__item__srch-box__img"
+                        src="mag.png"
+                      />
+                      <input
+                        className="App__container__filter-box__item__srch-box__srch"
+                        id="searchText"
+                        onChange={[Function]}
+                        onClick={[Function]}
+                        placeholder="Search"
+                        type="search"
+                      />
+                    </div>
+                  </div>
+                  <label
+                    className="App__container__filter-box__item"
+                    htmlFor="all"
+                  >
+                    <input
+                      className="App__container__filter-box__item__rad"
+                      defaultChecked={true}
+                      id="all"
+                      name="tag"
+                      onChange={[Function]}
+                      type="radio"
+                      value="all"
+                    />
+                    All
+                  </label>
+                  <label
+                    className="App__container__filter-box__item"
+                    htmlFor="Tag1"
+                  >
+                    <input
+                      className="App__container__filter-box__item__rad"
+                      id="Tag1"
+                      name="tag"
+                      onChange={[Function]}
+                      type="radio"
+                      value="Tag1"
+                    />
+                    Tag1
+                  </label>
+                  <label
+                    className="App__container__filter-box__item"
+                    htmlFor="Tag2"
+                  >
+                    <input
+                      className="App__container__filter-box__item__rad"
+                      id="Tag2"
+                      name="tag"
+                      onChange={[Function]}
+                      type="radio"
+                      value="Tag2"
+                    />
+                    Tag2
+                  </label>
+                  <label
+                    className="App__container__filter-box__item"
+                    htmlFor="Tag3"
+                  >
+                    <input
+                      className="App__container__filter-box__item__rad"
+                      id="Tag3"
+                      name="tag"
+                      onChange={[Function]}
+                      type="radio"
+                      value="Tag3"
+                    />
+                    Tag3
+                  </label>
+                  <label
+                    className="App__container__filter-box__item"
+                    htmlFor="Tag4"
+                  >
+                    <input
+                      className="App__container__filter-box__item__rad"
+                      id="Tag4"
+                      name="tag"
+                      onChange={[Function]}
+                      type="radio"
+                      value="Tag4"
+                    />
+                    Tag4
+                  </label>
+                  <label
+                    className="App__container__filter-box__item"
+                    htmlFor="Tag5"
+                  >
+                    <input
+                      className="App__container__filter-box__item__rad"
+                      id="Tag5"
+                      name="tag"
+                      onChange={[Function]}
+                      type="radio"
+                      value="Tag5"
+                    />
+                    Tag5
+                  </label>
+                </form>
+              </div>,
+              <div
+                className="App__container__display-box"
+              >
+                <ul
+                  className="App__container__display-box__list"
+                >
+                  <li
+                    className="App__container__display-box__list__item"
+                  >
+                    <Item
+                      item={
+                        Object {
+                          "tag": Array [
+                            "Tag1",
+                            "Tag3",
+                          ],
+                          "title": "SDK 1",
+                        }
+                      }
+                    />
+                  </li>
+                  <li
+                    className="App__container__display-box__list__item"
+                  >
+                    <Item
+                      item={
+                        Object {
+                          "tag": Array [
+                            "Tag4",
+                          ],
+                          "title": "SDK 2",
+                        }
+                      }
+                    />
+                  </li>
+                  <li
+                    className="App__container__display-box__list__item"
+                  >
+                    <Item
+                      item={
+                        Object {
+                          "tag": Array [
+                            "Tag1",
+                            "Tag3",
+                            "Tag5",
+                          ],
+                          "title": "SDK 3",
+                        }
+                      }
+                    />
+                  </li>
+                  <li
+                    className="App__container__display-box__list__item"
+                  >
+                    <Item
+                      item={
+                        Object {
+                          "tag": Array [
+                            "Tag2",
+                          ],
+                          "title": "SDK 4",
+                        }
+                      }
+                    />
+                  </li>
+                  <li
+                    className="App__container__display-box__list__item"
+                  >
+                    <Item
+                      item={
+                        Object {
+                          "tag": Array [
+                            "Tag3",
+                          ],
+                          "title": "SDK 5",
+                        }
+                      }
+                    />
+                  </li>
+                  <li
+                    className="App__container__display-box__list__item"
+                  >
+                    <Item
+                      item={
+                        Object {
+                          "tag": Array [
+                            "Tag2",
+                            "Tag4",
+                          ],
+                          "title": "SDK 6",
+                        }
+                      }
+                    />
+                  </li>
+                  <li
+                    className="App__container__display-box__list__item"
+                  >
+                    <Item
+                      item={
+                        Object {
+                          "tag": Array [
+                            "Tag1",
+                            "Tag3",
+                          ],
+                          "title": "SDK 7",
+                        }
+                      }
+                    />
+                  </li>
+                  <li
+                    className="App__container__display-box__list__item"
+                  >
+                    <Item
+                      item={
+                        Object {
+                          "tag": Array [
+                            "Tag1",
+                            "Tag2",
+                          ],
+                          "title": "SDK 8",
+                        }
+                      }
+                    />
+                  </li>
+                  <li
+                    className="App__container__display-box__list__item"
+                  >
+                    <Item
+                      item={
+                        Object {
+                          "tag": Array [
+                            "Tag1",
+                            "Tag5",
+                          ],
+                          "title": "SDK 9",
+                        }
+                      }
+                    />
+                  </li>
+                </ul>
+              </div>,
+            ],
+            "className": "App__container__box",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <form
+                  action="#"
+                >
+                  <div
+                    className="App__container__filter-box__item"
+                  >
+                    <input
+                      checked={false}
+                      className="App__container__filter-box__item__rad"
+                      id="radioSearch"
+                      name="tag"
+                      onChange={[Function]}
+                      type="radio"
+                    />
+                    <div
+                      className="App__container__filter-box__item__srch-box"
+                    >
+                      <img
+                        alt="mag"
+                        className="App__container__filter-box__item__srch-box__img"
+                        src="mag.png"
+                      />
+                      <input
+                        className="App__container__filter-box__item__srch-box__srch"
+                        id="searchText"
+                        onChange={[Function]}
+                        onClick={[Function]}
+                        placeholder="Search"
+                        type="search"
+                      />
+                    </div>
+                  </div>
+                  <label
+                    className="App__container__filter-box__item"
+                    htmlFor="all"
+                  >
+                    <input
+                      className="App__container__filter-box__item__rad"
+                      defaultChecked={true}
+                      id="all"
+                      name="tag"
+                      onChange={[Function]}
+                      type="radio"
+                      value="all"
+                    />
+                    All
+                  </label>
+                  <label
+                    className="App__container__filter-box__item"
+                    htmlFor="Tag1"
+                  >
+                    <input
+                      className="App__container__filter-box__item__rad"
+                      id="Tag1"
+                      name="tag"
+                      onChange={[Function]}
+                      type="radio"
+                      value="Tag1"
+                    />
+                    Tag1
+                  </label>
+                  <label
+                    className="App__container__filter-box__item"
+                    htmlFor="Tag2"
+                  >
+                    <input
+                      className="App__container__filter-box__item__rad"
+                      id="Tag2"
+                      name="tag"
+                      onChange={[Function]}
+                      type="radio"
+                      value="Tag2"
+                    />
+                    Tag2
+                  </label>
+                  <label
+                    className="App__container__filter-box__item"
+                    htmlFor="Tag3"
+                  >
+                    <input
+                      className="App__container__filter-box__item__rad"
+                      id="Tag3"
+                      name="tag"
+                      onChange={[Function]}
+                      type="radio"
+                      value="Tag3"
+                    />
+                    Tag3
+                  </label>
+                  <label
+                    className="App__container__filter-box__item"
+                    htmlFor="Tag4"
+                  >
+                    <input
+                      className="App__container__filter-box__item__rad"
+                      id="Tag4"
+                      name="tag"
+                      onChange={[Function]}
+                      type="radio"
+                      value="Tag4"
+                    />
+                    Tag4
+                  </label>
+                  <label
+                    className="App__container__filter-box__item"
+                    htmlFor="Tag5"
+                  >
+                    <input
+                      className="App__container__filter-box__item__rad"
+                      id="Tag5"
+                      name="tag"
+                      onChange={[Function]}
+                      type="radio"
+                      value="Tag5"
+                    />
+                    Tag5
+                  </label>
+                </form>,
+                "className": "App__container__filter-box",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "action": "#",
+                  "children": Array [
+                    <div
+                      className="App__container__filter-box__item"
+                    >
+                      <input
+                        checked={false}
+                        className="App__container__filter-box__item__rad"
+                        id="radioSearch"
+                        name="tag"
+                        onChange={[Function]}
+                        type="radio"
+                      />
+                      <div
+                        className="App__container__filter-box__item__srch-box"
+                      >
+                        <img
+                          alt="mag"
+                          className="App__container__filter-box__item__srch-box__img"
+                          src="mag.png"
+                        />
+                        <input
+                          className="App__container__filter-box__item__srch-box__srch"
+                          id="searchText"
+                          onChange={[Function]}
+                          onClick={[Function]}
+                          placeholder="Search"
+                          type="search"
+                        />
+                      </div>
+                    </div>,
+                    <label
+                      className="App__container__filter-box__item"
+                      htmlFor="all"
+                    >
+                      <input
+                        className="App__container__filter-box__item__rad"
+                        defaultChecked={true}
+                        id="all"
+                        name="tag"
+                        onChange={[Function]}
+                        type="radio"
+                        value="all"
+                      />
+                      All
+                    </label>,
+                    Array [
+                      <label
+                        className="App__container__filter-box__item"
+                        htmlFor="Tag1"
+                      >
+                        <input
+                          className="App__container__filter-box__item__rad"
+                          id="Tag1"
+                          name="tag"
+                          onChange={[Function]}
+                          type="radio"
+                          value="Tag1"
+                        />
+                        Tag1
+                      </label>,
+                      <label
+                        className="App__container__filter-box__item"
+                        htmlFor="Tag2"
+                      >
+                        <input
+                          className="App__container__filter-box__item__rad"
+                          id="Tag2"
+                          name="tag"
+                          onChange={[Function]}
+                          type="radio"
+                          value="Tag2"
+                        />
+                        Tag2
+                      </label>,
+                      <label
+                        className="App__container__filter-box__item"
+                        htmlFor="Tag3"
+                      >
+                        <input
+                          className="App__container__filter-box__item__rad"
+                          id="Tag3"
+                          name="tag"
+                          onChange={[Function]}
+                          type="radio"
+                          value="Tag3"
+                        />
+                        Tag3
+                      </label>,
+                      <label
+                        className="App__container__filter-box__item"
+                        htmlFor="Tag4"
+                      >
+                        <input
+                          className="App__container__filter-box__item__rad"
+                          id="Tag4"
+                          name="tag"
+                          onChange={[Function]}
+                          type="radio"
+                          value="Tag4"
+                        />
+                        Tag4
+                      </label>,
+                      <label
+                        className="App__container__filter-box__item"
+                        htmlFor="Tag5"
+                      >
+                        <input
+                          className="App__container__filter-box__item__rad"
+                          id="Tag5"
+                          name="tag"
+                          onChange={[Function]}
+                          type="radio"
+                          value="Tag5"
+                        />
+                        Tag5
+                      </label>,
+                    ],
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <input
+                          checked={false}
+                          className="App__container__filter-box__item__rad"
+                          id="radioSearch"
+                          name="tag"
+                          onChange={[Function]}
+                          type="radio"
+                        />,
+                        <div
+                          className="App__container__filter-box__item__srch-box"
+                        >
+                          <img
+                            alt="mag"
+                            className="App__container__filter-box__item__srch-box__img"
+                            src="mag.png"
+                          />
+                          <input
+                            className="App__container__filter-box__item__srch-box__srch"
+                            id="searchText"
+                            onChange={[Function]}
+                            onClick={[Function]}
+                            placeholder="Search"
+                            type="search"
+                          />
+                        </div>,
+                      ],
+                      "className": "App__container__filter-box__item",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "checked": false,
+                          "className": "App__container__filter-box__item__rad",
+                          "id": "radioSearch",
+                          "name": "tag",
+                          "onChange": [Function],
+                          "type": "radio",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <img
+                              alt="mag"
+                              className="App__container__filter-box__item__srch-box__img"
+                              src="mag.png"
+                            />,
+                            <input
+                              className="App__container__filter-box__item__srch-box__srch"
+                              id="searchText"
+                              onChange={[Function]}
+                              onClick={[Function]}
+                              placeholder="Search"
+                              type="search"
+                            />,
+                          ],
+                          "className": "App__container__filter-box__item__srch-box",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "alt": "mag",
+                              "className": "App__container__filter-box__item__srch-box__img",
+                              "src": "mag.png",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "img",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "className": "App__container__filter-box__item__srch-box__srch",
+                              "id": "searchText",
+                              "onChange": [Function],
+                              "onClick": [Function],
+                              "placeholder": "Search",
+                              "type": "search",
+                            },
+                            "ref": [Function],
+                            "rendered": null,
+                            "type": "input",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <input
+                          className="App__container__filter-box__item__rad"
+                          defaultChecked={true}
+                          id="all"
+                          name="tag"
+                          onChange={[Function]}
+                          type="radio"
+                          value="all"
+                        />,
+                        "All",
+                      ],
+                      "className": "App__container__filter-box__item",
+                      "htmlFor": "all",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "App__container__filter-box__item__rad",
+                          "defaultChecked": true,
+                          "id": "all",
+                          "name": "tag",
+                          "onChange": [Function],
+                          "type": "radio",
+                          "value": "all",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                      "All",
+                    ],
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <input
+                          className="App__container__filter-box__item__rad"
+                          id="Tag1"
+                          name="tag"
+                          onChange={[Function]}
+                          type="radio"
+                          value="Tag1"
+                        />,
+                        "Tag1",
+                      ],
+                      "className": "App__container__filter-box__item",
+                      "htmlFor": "Tag1",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "App__container__filter-box__item__rad",
+                          "id": "Tag1",
+                          "name": "tag",
+                          "onChange": [Function],
+                          "type": "radio",
+                          "value": "Tag1",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                      "Tag1",
+                    ],
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "1",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <input
+                          className="App__container__filter-box__item__rad"
+                          id="Tag2"
+                          name="tag"
+                          onChange={[Function]}
+                          type="radio"
+                          value="Tag2"
+                        />,
+                        "Tag2",
+                      ],
+                      "className": "App__container__filter-box__item",
+                      "htmlFor": "Tag2",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "App__container__filter-box__item__rad",
+                          "id": "Tag2",
+                          "name": "tag",
+                          "onChange": [Function],
+                          "type": "radio",
+                          "value": "Tag2",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                      "Tag2",
+                    ],
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "2",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <input
+                          className="App__container__filter-box__item__rad"
+                          id="Tag3"
+                          name="tag"
+                          onChange={[Function]}
+                          type="radio"
+                          value="Tag3"
+                        />,
+                        "Tag3",
+                      ],
+                      "className": "App__container__filter-box__item",
+                      "htmlFor": "Tag3",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "App__container__filter-box__item__rad",
+                          "id": "Tag3",
+                          "name": "tag",
+                          "onChange": [Function],
+                          "type": "radio",
+                          "value": "Tag3",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                      "Tag3",
+                    ],
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "3",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <input
+                          className="App__container__filter-box__item__rad"
+                          id="Tag4"
+                          name="tag"
+                          onChange={[Function]}
+                          type="radio"
+                          value="Tag4"
+                        />,
+                        "Tag4",
+                      ],
+                      "className": "App__container__filter-box__item",
+                      "htmlFor": "Tag4",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "App__container__filter-box__item__rad",
+                          "id": "Tag4",
+                          "name": "tag",
+                          "onChange": [Function],
+                          "type": "radio",
+                          "value": "Tag4",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                      "Tag4",
+                    ],
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "4",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <input
+                          className="App__container__filter-box__item__rad"
+                          id="Tag5"
+                          name="tag"
+                          onChange={[Function]}
+                          type="radio"
+                          value="Tag5"
+                        />,
+                        "Tag5",
+                      ],
+                      "className": "App__container__filter-box__item",
+                      "htmlFor": "Tag5",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "App__container__filter-box__item__rad",
+                          "id": "Tag5",
+                          "name": "tag",
+                          "onChange": [Function],
+                          "type": "radio",
+                          "value": "Tag5",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                      "Tag5",
+                    ],
+                    "type": "label",
+                  },
+                ],
+                "type": "form",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ul
+                  className="App__container__display-box__list"
+                >
+                  <li
+                    className="App__container__display-box__list__item"
+                  >
+                    <Item
+                      item={
+                        Object {
+                          "tag": Array [
+                            "Tag1",
+                            "Tag3",
+                          ],
+                          "title": "SDK 1",
+                        }
+                      }
+                    />
+                  </li>
+                  <li
+                    className="App__container__display-box__list__item"
+                  >
+                    <Item
+                      item={
+                        Object {
+                          "tag": Array [
+                            "Tag4",
+                          ],
+                          "title": "SDK 2",
+                        }
+                      }
+                    />
+                  </li>
+                  <li
+                    className="App__container__display-box__list__item"
+                  >
+                    <Item
+                      item={
+                        Object {
+                          "tag": Array [
+                            "Tag1",
+                            "Tag3",
+                            "Tag5",
+                          ],
+                          "title": "SDK 3",
+                        }
+                      }
+                    />
+                  </li>
+                  <li
+                    className="App__container__display-box__list__item"
+                  >
+                    <Item
+                      item={
+                        Object {
+                          "tag": Array [
+                            "Tag2",
+                          ],
+                          "title": "SDK 4",
+                        }
+                      }
+                    />
+                  </li>
+                  <li
+                    className="App__container__display-box__list__item"
+                  >
+                    <Item
+                      item={
+                        Object {
+                          "tag": Array [
+                            "Tag3",
+                          ],
+                          "title": "SDK 5",
+                        }
+                      }
+                    />
+                  </li>
+                  <li
+                    className="App__container__display-box__list__item"
+                  >
+                    <Item
+                      item={
+                        Object {
+                          "tag": Array [
+                            "Tag2",
+                            "Tag4",
+                          ],
+                          "title": "SDK 6",
+                        }
+                      }
+                    />
+                  </li>
+                  <li
+                    className="App__container__display-box__list__item"
+                  >
+                    <Item
+                      item={
+                        Object {
+                          "tag": Array [
+                            "Tag1",
+                            "Tag3",
+                          ],
+                          "title": "SDK 7",
+                        }
+                      }
+                    />
+                  </li>
+                  <li
+                    className="App__container__display-box__list__item"
+                  >
+                    <Item
+                      item={
+                        Object {
+                          "tag": Array [
+                            "Tag1",
+                            "Tag2",
+                          ],
+                          "title": "SDK 8",
+                        }
+                      }
+                    />
+                  </li>
+                  <li
+                    className="App__container__display-box__list__item"
+                  >
+                    <Item
+                      item={
+                        Object {
+                          "tag": Array [
+                            "Tag1",
+                            "Tag5",
+                          ],
+                          "title": "SDK 9",
+                        }
+                      }
+                    />
+                  </li>
+                </ul>,
+                "className": "App__container__display-box",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <li
+                      className="App__container__display-box__list__item"
+                    >
+                      <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag1",
+                              "Tag3",
+                            ],
+                            "title": "SDK 1",
+                          }
+                        }
+                      />
+                    </li>,
+                    <li
+                      className="App__container__display-box__list__item"
+                    >
+                      <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag4",
+                            ],
+                            "title": "SDK 2",
+                          }
+                        }
+                      />
+                    </li>,
+                    <li
+                      className="App__container__display-box__list__item"
+                    >
+                      <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag1",
+                              "Tag3",
+                              "Tag5",
+                            ],
+                            "title": "SDK 3",
+                          }
+                        }
+                      />
+                    </li>,
+                    <li
+                      className="App__container__display-box__list__item"
+                    >
+                      <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag2",
+                            ],
+                            "title": "SDK 4",
+                          }
+                        }
+                      />
+                    </li>,
+                    <li
+                      className="App__container__display-box__list__item"
+                    >
+                      <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag3",
+                            ],
+                            "title": "SDK 5",
+                          }
+                        }
+                      />
+                    </li>,
+                    <li
+                      className="App__container__display-box__list__item"
+                    >
+                      <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag2",
+                              "Tag4",
+                            ],
+                            "title": "SDK 6",
+                          }
+                        }
+                      />
+                    </li>,
+                    <li
+                      className="App__container__display-box__list__item"
+                    >
+                      <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag1",
+                              "Tag3",
+                            ],
+                            "title": "SDK 7",
+                          }
+                        }
+                      />
+                    </li>,
+                    <li
+                      className="App__container__display-box__list__item"
+                    >
+                      <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag1",
+                              "Tag2",
+                            ],
+                            "title": "SDK 8",
+                          }
+                        }
+                      />
+                    </li>,
+                    <li
+                      className="App__container__display-box__list__item"
+                    >
+                      <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag1",
+                              "Tag5",
+                            ],
+                            "title": "SDK 9",
+                          }
+                        }
+                      />
+                    </li>,
+                  ],
+                  "className": "App__container__display-box__list",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag1",
+                              "Tag3",
+                            ],
+                            "title": "SDK 1",
+                          }
+                        }
+                      />,
+                      "className": "App__container__display-box__list__item",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "item": Object {
+                          "tag": Array [
+                            "Tag1",
+                            "Tag3",
+                          ],
+                          "title": "SDK 1",
+                        },
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "1",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag4",
+                            ],
+                            "title": "SDK 2",
+                          }
+                        }
+                      />,
+                      "className": "App__container__display-box__list__item",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "item": Object {
+                          "tag": Array [
+                            "Tag4",
+                          ],
+                          "title": "SDK 2",
+                        },
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "2",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag1",
+                              "Tag3",
+                              "Tag5",
+                            ],
+                            "title": "SDK 3",
+                          }
+                        }
+                      />,
+                      "className": "App__container__display-box__list__item",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "item": Object {
+                          "tag": Array [
+                            "Tag1",
+                            "Tag3",
+                            "Tag5",
+                          ],
+                          "title": "SDK 3",
+                        },
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "3",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag2",
+                            ],
+                            "title": "SDK 4",
+                          }
+                        }
+                      />,
+                      "className": "App__container__display-box__list__item",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "item": Object {
+                          "tag": Array [
+                            "Tag2",
+                          ],
+                          "title": "SDK 4",
+                        },
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "4",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag3",
+                            ],
+                            "title": "SDK 5",
+                          }
+                        }
+                      />,
+                      "className": "App__container__display-box__list__item",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "item": Object {
+                          "tag": Array [
+                            "Tag3",
+                          ],
+                          "title": "SDK 5",
+                        },
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "5",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag2",
+                              "Tag4",
+                            ],
+                            "title": "SDK 6",
+                          }
+                        }
+                      />,
+                      "className": "App__container__display-box__list__item",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "item": Object {
+                          "tag": Array [
+                            "Tag2",
+                            "Tag4",
+                          ],
+                          "title": "SDK 6",
+                        },
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "6",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag1",
+                              "Tag3",
+                            ],
+                            "title": "SDK 7",
+                          }
+                        }
+                      />,
+                      "className": "App__container__display-box__list__item",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "item": Object {
+                          "tag": Array [
+                            "Tag1",
+                            "Tag3",
+                          ],
+                          "title": "SDK 7",
+                        },
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "7",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag1",
+                              "Tag2",
+                            ],
+                            "title": "SDK 8",
+                          }
+                        }
+                      />,
+                      "className": "App__container__display-box__list__item",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "item": Object {
+                          "tag": Array [
+                            "Tag1",
+                            "Tag2",
+                          ],
+                          "title": "SDK 8",
+                        },
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "8",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag1",
+                              "Tag5",
+                            ],
+                            "title": "SDK 9",
+                          }
+                        }
+                      />,
+                      "className": "App__container__display-box__list__item",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "item": Object {
+                          "tag": Array [
+                            "Tag1",
+                            "Tag5",
+                          ],
+                          "title": "SDK 9",
+                        },
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "li",
+                  },
+                ],
+                "type": "ul",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="App__container"
+        >
+          <h1
+            className="App__title"
+          >
+            SDKs
+          </h1>
+          <div
+            className="App__container__box"
+          >
+            <div
+              className="App__container__filter-box"
+            >
+              <form
+                action="#"
+              >
+                <div
+                  className="App__container__filter-box__item"
+                >
+                  <input
+                    checked={false}
+                    className="App__container__filter-box__item__rad"
+                    id="radioSearch"
+                    name="tag"
+                    onChange={[Function]}
+                    type="radio"
+                  />
+                  <div
+                    className="App__container__filter-box__item__srch-box"
+                  >
+                    <img
+                      alt="mag"
+                      className="App__container__filter-box__item__srch-box__img"
+                      src="mag.png"
+                    />
+                    <input
+                      className="App__container__filter-box__item__srch-box__srch"
+                      id="searchText"
+                      onChange={[Function]}
+                      onClick={[Function]}
+                      placeholder="Search"
+                      type="search"
+                    />
+                  </div>
+                </div>
+                <label
+                  className="App__container__filter-box__item"
+                  htmlFor="all"
+                >
+                  <input
+                    className="App__container__filter-box__item__rad"
+                    defaultChecked={true}
+                    id="all"
+                    name="tag"
+                    onChange={[Function]}
+                    type="radio"
+                    value="all"
+                  />
+                  All
+                </label>
+                <label
+                  className="App__container__filter-box__item"
+                  htmlFor="Tag1"
+                >
+                  <input
+                    className="App__container__filter-box__item__rad"
+                    id="Tag1"
+                    name="tag"
+                    onChange={[Function]}
+                    type="radio"
+                    value="Tag1"
+                  />
+                  Tag1
+                </label>
+                <label
+                  className="App__container__filter-box__item"
+                  htmlFor="Tag2"
+                >
+                  <input
+                    className="App__container__filter-box__item__rad"
+                    id="Tag2"
+                    name="tag"
+                    onChange={[Function]}
+                    type="radio"
+                    value="Tag2"
+                  />
+                  Tag2
+                </label>
+                <label
+                  className="App__container__filter-box__item"
+                  htmlFor="Tag3"
+                >
+                  <input
+                    className="App__container__filter-box__item__rad"
+                    id="Tag3"
+                    name="tag"
+                    onChange={[Function]}
+                    type="radio"
+                    value="Tag3"
+                  />
+                  Tag3
+                </label>
+                <label
+                  className="App__container__filter-box__item"
+                  htmlFor="Tag4"
+                >
+                  <input
+                    className="App__container__filter-box__item__rad"
+                    id="Tag4"
+                    name="tag"
+                    onChange={[Function]}
+                    type="radio"
+                    value="Tag4"
+                  />
+                  Tag4
+                </label>
+                <label
+                  className="App__container__filter-box__item"
+                  htmlFor="Tag5"
+                >
+                  <input
+                    className="App__container__filter-box__item__rad"
+                    id="Tag5"
+                    name="tag"
+                    onChange={[Function]}
+                    type="radio"
+                    value="Tag5"
+                  />
+                  Tag5
+                </label>
+              </form>
+            </div>
+            <div
+              className="App__container__display-box"
+            >
+              <ul
+                className="App__container__display-box__list"
+              >
+                <li
+                  className="App__container__display-box__list__item"
+                >
+                  <Item
+                    item={
+                      Object {
+                        "tag": Array [
+                          "Tag1",
+                          "Tag3",
+                        ],
+                        "title": "SDK 1",
+                      }
+                    }
+                  />
+                </li>
+                <li
+                  className="App__container__display-box__list__item"
+                >
+                  <Item
+                    item={
+                      Object {
+                        "tag": Array [
+                          "Tag4",
+                        ],
+                        "title": "SDK 2",
+                      }
+                    }
+                  />
+                </li>
+                <li
+                  className="App__container__display-box__list__item"
+                >
+                  <Item
+                    item={
+                      Object {
+                        "tag": Array [
+                          "Tag1",
+                          "Tag3",
+                          "Tag5",
+                        ],
+                        "title": "SDK 3",
+                      }
+                    }
+                  />
+                </li>
+                <li
+                  className="App__container__display-box__list__item"
+                >
+                  <Item
+                    item={
+                      Object {
+                        "tag": Array [
+                          "Tag2",
+                        ],
+                        "title": "SDK 4",
+                      }
+                    }
+                  />
+                </li>
+                <li
+                  className="App__container__display-box__list__item"
+                >
+                  <Item
+                    item={
+                      Object {
+                        "tag": Array [
+                          "Tag3",
+                        ],
+                        "title": "SDK 5",
+                      }
+                    }
+                  />
+                </li>
+                <li
+                  className="App__container__display-box__list__item"
+                >
+                  <Item
+                    item={
+                      Object {
+                        "tag": Array [
+                          "Tag2",
+                          "Tag4",
+                        ],
+                        "title": "SDK 6",
+                      }
+                    }
+                  />
+                </li>
+                <li
+                  className="App__container__display-box__list__item"
+                >
+                  <Item
+                    item={
+                      Object {
+                        "tag": Array [
+                          "Tag1",
+                          "Tag3",
+                        ],
+                        "title": "SDK 7",
+                      }
+                    }
+                  />
+                </li>
+                <li
+                  className="App__container__display-box__list__item"
+                >
+                  <Item
+                    item={
+                      Object {
+                        "tag": Array [
+                          "Tag1",
+                          "Tag2",
+                        ],
+                        "title": "SDK 8",
+                      }
+                    }
+                  />
+                </li>
+                <li
+                  className="App__container__display-box__list__item"
+                >
+                  <Item
+                    item={
+                      Object {
+                        "tag": Array [
+                          "Tag1",
+                          "Tag5",
+                        ],
+                        "title": "SDK 9",
+                      }
+                    }
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>,
+        "className": "App",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h1
+              className="App__title"
+            >
+              SDKs
+            </h1>,
+            <div
+              className="App__container__box"
+            >
+              <div
+                className="App__container__filter-box"
+              >
+                <form
+                  action="#"
+                >
+                  <div
+                    className="App__container__filter-box__item"
+                  >
+                    <input
+                      checked={false}
+                      className="App__container__filter-box__item__rad"
+                      id="radioSearch"
+                      name="tag"
+                      onChange={[Function]}
+                      type="radio"
+                    />
+                    <div
+                      className="App__container__filter-box__item__srch-box"
+                    >
+                      <img
+                        alt="mag"
+                        className="App__container__filter-box__item__srch-box__img"
+                        src="mag.png"
+                      />
+                      <input
+                        className="App__container__filter-box__item__srch-box__srch"
+                        id="searchText"
+                        onChange={[Function]}
+                        onClick={[Function]}
+                        placeholder="Search"
+                        type="search"
+                      />
+                    </div>
+                  </div>
+                  <label
+                    className="App__container__filter-box__item"
+                    htmlFor="all"
+                  >
+                    <input
+                      className="App__container__filter-box__item__rad"
+                      defaultChecked={true}
+                      id="all"
+                      name="tag"
+                      onChange={[Function]}
+                      type="radio"
+                      value="all"
+                    />
+                    All
+                  </label>
+                  <label
+                    className="App__container__filter-box__item"
+                    htmlFor="Tag1"
+                  >
+                    <input
+                      className="App__container__filter-box__item__rad"
+                      id="Tag1"
+                      name="tag"
+                      onChange={[Function]}
+                      type="radio"
+                      value="Tag1"
+                    />
+                    Tag1
+                  </label>
+                  <label
+                    className="App__container__filter-box__item"
+                    htmlFor="Tag2"
+                  >
+                    <input
+                      className="App__container__filter-box__item__rad"
+                      id="Tag2"
+                      name="tag"
+                      onChange={[Function]}
+                      type="radio"
+                      value="Tag2"
+                    />
+                    Tag2
+                  </label>
+                  <label
+                    className="App__container__filter-box__item"
+                    htmlFor="Tag3"
+                  >
+                    <input
+                      className="App__container__filter-box__item__rad"
+                      id="Tag3"
+                      name="tag"
+                      onChange={[Function]}
+                      type="radio"
+                      value="Tag3"
+                    />
+                    Tag3
+                  </label>
+                  <label
+                    className="App__container__filter-box__item"
+                    htmlFor="Tag4"
+                  >
+                    <input
+                      className="App__container__filter-box__item__rad"
+                      id="Tag4"
+                      name="tag"
+                      onChange={[Function]}
+                      type="radio"
+                      value="Tag4"
+                    />
+                    Tag4
+                  </label>
+                  <label
+                    className="App__container__filter-box__item"
+                    htmlFor="Tag5"
+                  >
+                    <input
+                      className="App__container__filter-box__item__rad"
+                      id="Tag5"
+                      name="tag"
+                      onChange={[Function]}
+                      type="radio"
+                      value="Tag5"
+                    />
+                    Tag5
+                  </label>
+                </form>
+              </div>
+              <div
+                className="App__container__display-box"
+              >
+                <ul
+                  className="App__container__display-box__list"
+                >
+                  <li
+                    className="App__container__display-box__list__item"
+                  >
+                    <Item
+                      item={
+                        Object {
+                          "tag": Array [
+                            "Tag1",
+                            "Tag3",
+                          ],
+                          "title": "SDK 1",
+                        }
+                      }
+                    />
+                  </li>
+                  <li
+                    className="App__container__display-box__list__item"
+                  >
+                    <Item
+                      item={
+                        Object {
+                          "tag": Array [
+                            "Tag4",
+                          ],
+                          "title": "SDK 2",
+                        }
+                      }
+                    />
+                  </li>
+                  <li
+                    className="App__container__display-box__list__item"
+                  >
+                    <Item
+                      item={
+                        Object {
+                          "tag": Array [
+                            "Tag1",
+                            "Tag3",
+                            "Tag5",
+                          ],
+                          "title": "SDK 3",
+                        }
+                      }
+                    />
+                  </li>
+                  <li
+                    className="App__container__display-box__list__item"
+                  >
+                    <Item
+                      item={
+                        Object {
+                          "tag": Array [
+                            "Tag2",
+                          ],
+                          "title": "SDK 4",
+                        }
+                      }
+                    />
+                  </li>
+                  <li
+                    className="App__container__display-box__list__item"
+                  >
+                    <Item
+                      item={
+                        Object {
+                          "tag": Array [
+                            "Tag3",
+                          ],
+                          "title": "SDK 5",
+                        }
+                      }
+                    />
+                  </li>
+                  <li
+                    className="App__container__display-box__list__item"
+                  >
+                    <Item
+                      item={
+                        Object {
+                          "tag": Array [
+                            "Tag2",
+                            "Tag4",
+                          ],
+                          "title": "SDK 6",
+                        }
+                      }
+                    />
+                  </li>
+                  <li
+                    className="App__container__display-box__list__item"
+                  >
+                    <Item
+                      item={
+                        Object {
+                          "tag": Array [
+                            "Tag1",
+                            "Tag3",
+                          ],
+                          "title": "SDK 7",
+                        }
+                      }
+                    />
+                  </li>
+                  <li
+                    className="App__container__display-box__list__item"
+                  >
+                    <Item
+                      item={
+                        Object {
+                          "tag": Array [
+                            "Tag1",
+                            "Tag2",
+                          ],
+                          "title": "SDK 8",
+                        }
+                      }
+                    />
+                  </li>
+                  <li
+                    className="App__container__display-box__list__item"
+                  >
+                    <Item
+                      item={
+                        Object {
+                          "tag": Array [
+                            "Tag1",
+                            "Tag5",
+                          ],
+                          "title": "SDK 9",
+                        }
+                      }
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>,
+          ],
+          "className": "App__container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "SDKs",
+              "className": "App__title",
+            },
+            "ref": null,
+            "rendered": "SDKs",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="App__container__filter-box"
+                >
+                  <form
+                    action="#"
+                  >
+                    <div
+                      className="App__container__filter-box__item"
+                    >
+                      <input
+                        checked={false}
+                        className="App__container__filter-box__item__rad"
+                        id="radioSearch"
+                        name="tag"
+                        onChange={[Function]}
+                        type="radio"
+                      />
+                      <div
+                        className="App__container__filter-box__item__srch-box"
+                      >
+                        <img
+                          alt="mag"
+                          className="App__container__filter-box__item__srch-box__img"
+                          src="mag.png"
+                        />
+                        <input
+                          className="App__container__filter-box__item__srch-box__srch"
+                          id="searchText"
+                          onChange={[Function]}
+                          onClick={[Function]}
+                          placeholder="Search"
+                          type="search"
+                        />
+                      </div>
+                    </div>
+                    <label
+                      className="App__container__filter-box__item"
+                      htmlFor="all"
+                    >
+                      <input
+                        className="App__container__filter-box__item__rad"
+                        defaultChecked={true}
+                        id="all"
+                        name="tag"
+                        onChange={[Function]}
+                        type="radio"
+                        value="all"
+                      />
+                      All
+                    </label>
+                    <label
+                      className="App__container__filter-box__item"
+                      htmlFor="Tag1"
+                    >
+                      <input
+                        className="App__container__filter-box__item__rad"
+                        id="Tag1"
+                        name="tag"
+                        onChange={[Function]}
+                        type="radio"
+                        value="Tag1"
+                      />
+                      Tag1
+                    </label>
+                    <label
+                      className="App__container__filter-box__item"
+                      htmlFor="Tag2"
+                    >
+                      <input
+                        className="App__container__filter-box__item__rad"
+                        id="Tag2"
+                        name="tag"
+                        onChange={[Function]}
+                        type="radio"
+                        value="Tag2"
+                      />
+                      Tag2
+                    </label>
+                    <label
+                      className="App__container__filter-box__item"
+                      htmlFor="Tag3"
+                    >
+                      <input
+                        className="App__container__filter-box__item__rad"
+                        id="Tag3"
+                        name="tag"
+                        onChange={[Function]}
+                        type="radio"
+                        value="Tag3"
+                      />
+                      Tag3
+                    </label>
+                    <label
+                      className="App__container__filter-box__item"
+                      htmlFor="Tag4"
+                    >
+                      <input
+                        className="App__container__filter-box__item__rad"
+                        id="Tag4"
+                        name="tag"
+                        onChange={[Function]}
+                        type="radio"
+                        value="Tag4"
+                      />
+                      Tag4
+                    </label>
+                    <label
+                      className="App__container__filter-box__item"
+                      htmlFor="Tag5"
+                    >
+                      <input
+                        className="App__container__filter-box__item__rad"
+                        id="Tag5"
+                        name="tag"
+                        onChange={[Function]}
+                        type="radio"
+                        value="Tag5"
+                      />
+                      Tag5
+                    </label>
+                  </form>
+                </div>,
+                <div
+                  className="App__container__display-box"
+                >
+                  <ul
+                    className="App__container__display-box__list"
+                  >
+                    <li
+                      className="App__container__display-box__list__item"
+                    >
+                      <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag1",
+                              "Tag3",
+                            ],
+                            "title": "SDK 1",
+                          }
+                        }
+                      />
+                    </li>
+                    <li
+                      className="App__container__display-box__list__item"
+                    >
+                      <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag4",
+                            ],
+                            "title": "SDK 2",
+                          }
+                        }
+                      />
+                    </li>
+                    <li
+                      className="App__container__display-box__list__item"
+                    >
+                      <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag1",
+                              "Tag3",
+                              "Tag5",
+                            ],
+                            "title": "SDK 3",
+                          }
+                        }
+                      />
+                    </li>
+                    <li
+                      className="App__container__display-box__list__item"
+                    >
+                      <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag2",
+                            ],
+                            "title": "SDK 4",
+                          }
+                        }
+                      />
+                    </li>
+                    <li
+                      className="App__container__display-box__list__item"
+                    >
+                      <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag3",
+                            ],
+                            "title": "SDK 5",
+                          }
+                        }
+                      />
+                    </li>
+                    <li
+                      className="App__container__display-box__list__item"
+                    >
+                      <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag2",
+                              "Tag4",
+                            ],
+                            "title": "SDK 6",
+                          }
+                        }
+                      />
+                    </li>
+                    <li
+                      className="App__container__display-box__list__item"
+                    >
+                      <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag1",
+                              "Tag3",
+                            ],
+                            "title": "SDK 7",
+                          }
+                        }
+                      />
+                    </li>
+                    <li
+                      className="App__container__display-box__list__item"
+                    >
+                      <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag1",
+                              "Tag2",
+                            ],
+                            "title": "SDK 8",
+                          }
+                        }
+                      />
+                    </li>
+                    <li
+                      className="App__container__display-box__list__item"
+                    >
+                      <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag1",
+                              "Tag5",
+                            ],
+                            "title": "SDK 9",
+                          }
+                        }
+                      />
+                    </li>
+                  </ul>
+                </div>,
+              ],
+              "className": "App__container__box",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <form
+                    action="#"
+                  >
+                    <div
+                      className="App__container__filter-box__item"
+                    >
+                      <input
+                        checked={false}
+                        className="App__container__filter-box__item__rad"
+                        id="radioSearch"
+                        name="tag"
+                        onChange={[Function]}
+                        type="radio"
+                      />
+                      <div
+                        className="App__container__filter-box__item__srch-box"
+                      >
+                        <img
+                          alt="mag"
+                          className="App__container__filter-box__item__srch-box__img"
+                          src="mag.png"
+                        />
+                        <input
+                          className="App__container__filter-box__item__srch-box__srch"
+                          id="searchText"
+                          onChange={[Function]}
+                          onClick={[Function]}
+                          placeholder="Search"
+                          type="search"
+                        />
+                      </div>
+                    </div>
+                    <label
+                      className="App__container__filter-box__item"
+                      htmlFor="all"
+                    >
+                      <input
+                        className="App__container__filter-box__item__rad"
+                        defaultChecked={true}
+                        id="all"
+                        name="tag"
+                        onChange={[Function]}
+                        type="radio"
+                        value="all"
+                      />
+                      All
+                    </label>
+                    <label
+                      className="App__container__filter-box__item"
+                      htmlFor="Tag1"
+                    >
+                      <input
+                        className="App__container__filter-box__item__rad"
+                        id="Tag1"
+                        name="tag"
+                        onChange={[Function]}
+                        type="radio"
+                        value="Tag1"
+                      />
+                      Tag1
+                    </label>
+                    <label
+                      className="App__container__filter-box__item"
+                      htmlFor="Tag2"
+                    >
+                      <input
+                        className="App__container__filter-box__item__rad"
+                        id="Tag2"
+                        name="tag"
+                        onChange={[Function]}
+                        type="radio"
+                        value="Tag2"
+                      />
+                      Tag2
+                    </label>
+                    <label
+                      className="App__container__filter-box__item"
+                      htmlFor="Tag3"
+                    >
+                      <input
+                        className="App__container__filter-box__item__rad"
+                        id="Tag3"
+                        name="tag"
+                        onChange={[Function]}
+                        type="radio"
+                        value="Tag3"
+                      />
+                      Tag3
+                    </label>
+                    <label
+                      className="App__container__filter-box__item"
+                      htmlFor="Tag4"
+                    >
+                      <input
+                        className="App__container__filter-box__item__rad"
+                        id="Tag4"
+                        name="tag"
+                        onChange={[Function]}
+                        type="radio"
+                        value="Tag4"
+                      />
+                      Tag4
+                    </label>
+                    <label
+                      className="App__container__filter-box__item"
+                      htmlFor="Tag5"
+                    >
+                      <input
+                        className="App__container__filter-box__item__rad"
+                        id="Tag5"
+                        name="tag"
+                        onChange={[Function]}
+                        type="radio"
+                        value="Tag5"
+                      />
+                      Tag5
+                    </label>
+                  </form>,
+                  "className": "App__container__filter-box",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "action": "#",
+                    "children": Array [
+                      <div
+                        className="App__container__filter-box__item"
+                      >
+                        <input
+                          checked={false}
+                          className="App__container__filter-box__item__rad"
+                          id="radioSearch"
+                          name="tag"
+                          onChange={[Function]}
+                          type="radio"
+                        />
+                        <div
+                          className="App__container__filter-box__item__srch-box"
+                        >
+                          <img
+                            alt="mag"
+                            className="App__container__filter-box__item__srch-box__img"
+                            src="mag.png"
+                          />
+                          <input
+                            className="App__container__filter-box__item__srch-box__srch"
+                            id="searchText"
+                            onChange={[Function]}
+                            onClick={[Function]}
+                            placeholder="Search"
+                            type="search"
+                          />
+                        </div>
+                      </div>,
+                      <label
+                        className="App__container__filter-box__item"
+                        htmlFor="all"
+                      >
+                        <input
+                          className="App__container__filter-box__item__rad"
+                          defaultChecked={true}
+                          id="all"
+                          name="tag"
+                          onChange={[Function]}
+                          type="radio"
+                          value="all"
+                        />
+                        All
+                      </label>,
+                      Array [
+                        <label
+                          className="App__container__filter-box__item"
+                          htmlFor="Tag1"
+                        >
+                          <input
+                            className="App__container__filter-box__item__rad"
+                            id="Tag1"
+                            name="tag"
+                            onChange={[Function]}
+                            type="radio"
+                            value="Tag1"
+                          />
+                          Tag1
+                        </label>,
+                        <label
+                          className="App__container__filter-box__item"
+                          htmlFor="Tag2"
+                        >
+                          <input
+                            className="App__container__filter-box__item__rad"
+                            id="Tag2"
+                            name="tag"
+                            onChange={[Function]}
+                            type="radio"
+                            value="Tag2"
+                          />
+                          Tag2
+                        </label>,
+                        <label
+                          className="App__container__filter-box__item"
+                          htmlFor="Tag3"
+                        >
+                          <input
+                            className="App__container__filter-box__item__rad"
+                            id="Tag3"
+                            name="tag"
+                            onChange={[Function]}
+                            type="radio"
+                            value="Tag3"
+                          />
+                          Tag3
+                        </label>,
+                        <label
+                          className="App__container__filter-box__item"
+                          htmlFor="Tag4"
+                        >
+                          <input
+                            className="App__container__filter-box__item__rad"
+                            id="Tag4"
+                            name="tag"
+                            onChange={[Function]}
+                            type="radio"
+                            value="Tag4"
+                          />
+                          Tag4
+                        </label>,
+                        <label
+                          className="App__container__filter-box__item"
+                          htmlFor="Tag5"
+                        >
+                          <input
+                            className="App__container__filter-box__item__rad"
+                            id="Tag5"
+                            name="tag"
+                            onChange={[Function]}
+                            type="radio"
+                            value="Tag5"
+                          />
+                          Tag5
+                        </label>,
+                      ],
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <input
+                            checked={false}
+                            className="App__container__filter-box__item__rad"
+                            id="radioSearch"
+                            name="tag"
+                            onChange={[Function]}
+                            type="radio"
+                          />,
+                          <div
+                            className="App__container__filter-box__item__srch-box"
+                          >
+                            <img
+                              alt="mag"
+                              className="App__container__filter-box__item__srch-box__img"
+                              src="mag.png"
+                            />
+                            <input
+                              className="App__container__filter-box__item__srch-box__srch"
+                              id="searchText"
+                              onChange={[Function]}
+                              onClick={[Function]}
+                              placeholder="Search"
+                              type="search"
+                            />
+                          </div>,
+                        ],
+                        "className": "App__container__filter-box__item",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "checked": false,
+                            "className": "App__container__filter-box__item__rad",
+                            "id": "radioSearch",
+                            "name": "tag",
+                            "onChange": [Function],
+                            "type": "radio",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <img
+                                alt="mag"
+                                className="App__container__filter-box__item__srch-box__img"
+                                src="mag.png"
+                              />,
+                              <input
+                                className="App__container__filter-box__item__srch-box__srch"
+                                id="searchText"
+                                onChange={[Function]}
+                                onClick={[Function]}
+                                placeholder="Search"
+                                type="search"
+                              />,
+                            ],
+                            "className": "App__container__filter-box__item__srch-box",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "alt": "mag",
+                                "className": "App__container__filter-box__item__srch-box__img",
+                                "src": "mag.png",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "img",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "className": "App__container__filter-box__item__srch-box__srch",
+                                "id": "searchText",
+                                "onChange": [Function],
+                                "onClick": [Function],
+                                "placeholder": "Search",
+                                "type": "search",
+                              },
+                              "ref": [Function],
+                              "rendered": null,
+                              "type": "input",
+                            },
+                          ],
+                          "type": "div",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <input
+                            className="App__container__filter-box__item__rad"
+                            defaultChecked={true}
+                            id="all"
+                            name="tag"
+                            onChange={[Function]}
+                            type="radio"
+                            value="all"
+                          />,
+                          "All",
+                        ],
+                        "className": "App__container__filter-box__item",
+                        "htmlFor": "all",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "App__container__filter-box__item__rad",
+                            "defaultChecked": true,
+                            "id": "all",
+                            "name": "tag",
+                            "onChange": [Function],
+                            "type": "radio",
+                            "value": "all",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                        "All",
+                      ],
+                      "type": "label",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "0",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <input
+                            className="App__container__filter-box__item__rad"
+                            id="Tag1"
+                            name="tag"
+                            onChange={[Function]}
+                            type="radio"
+                            value="Tag1"
+                          />,
+                          "Tag1",
+                        ],
+                        "className": "App__container__filter-box__item",
+                        "htmlFor": "Tag1",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "App__container__filter-box__item__rad",
+                            "id": "Tag1",
+                            "name": "tag",
+                            "onChange": [Function],
+                            "type": "radio",
+                            "value": "Tag1",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                        "Tag1",
+                      ],
+                      "type": "label",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "1",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <input
+                            className="App__container__filter-box__item__rad"
+                            id="Tag2"
+                            name="tag"
+                            onChange={[Function]}
+                            type="radio"
+                            value="Tag2"
+                          />,
+                          "Tag2",
+                        ],
+                        "className": "App__container__filter-box__item",
+                        "htmlFor": "Tag2",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "App__container__filter-box__item__rad",
+                            "id": "Tag2",
+                            "name": "tag",
+                            "onChange": [Function],
+                            "type": "radio",
+                            "value": "Tag2",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                        "Tag2",
+                      ],
+                      "type": "label",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "2",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <input
+                            className="App__container__filter-box__item__rad"
+                            id="Tag3"
+                            name="tag"
+                            onChange={[Function]}
+                            type="radio"
+                            value="Tag3"
+                          />,
+                          "Tag3",
+                        ],
+                        "className": "App__container__filter-box__item",
+                        "htmlFor": "Tag3",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "App__container__filter-box__item__rad",
+                            "id": "Tag3",
+                            "name": "tag",
+                            "onChange": [Function],
+                            "type": "radio",
+                            "value": "Tag3",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                        "Tag3",
+                      ],
+                      "type": "label",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "3",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <input
+                            className="App__container__filter-box__item__rad"
+                            id="Tag4"
+                            name="tag"
+                            onChange={[Function]}
+                            type="radio"
+                            value="Tag4"
+                          />,
+                          "Tag4",
+                        ],
+                        "className": "App__container__filter-box__item",
+                        "htmlFor": "Tag4",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "App__container__filter-box__item__rad",
+                            "id": "Tag4",
+                            "name": "tag",
+                            "onChange": [Function],
+                            "type": "radio",
+                            "value": "Tag4",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                        "Tag4",
+                      ],
+                      "type": "label",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "4",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <input
+                            className="App__container__filter-box__item__rad"
+                            id="Tag5"
+                            name="tag"
+                            onChange={[Function]}
+                            type="radio"
+                            value="Tag5"
+                          />,
+                          "Tag5",
+                        ],
+                        "className": "App__container__filter-box__item",
+                        "htmlFor": "Tag5",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "App__container__filter-box__item__rad",
+                            "id": "Tag5",
+                            "name": "tag",
+                            "onChange": [Function],
+                            "type": "radio",
+                            "value": "Tag5",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                        "Tag5",
+                      ],
+                      "type": "label",
+                    },
+                  ],
+                  "type": "form",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <ul
+                    className="App__container__display-box__list"
+                  >
+                    <li
+                      className="App__container__display-box__list__item"
+                    >
+                      <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag1",
+                              "Tag3",
+                            ],
+                            "title": "SDK 1",
+                          }
+                        }
+                      />
+                    </li>
+                    <li
+                      className="App__container__display-box__list__item"
+                    >
+                      <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag4",
+                            ],
+                            "title": "SDK 2",
+                          }
+                        }
+                      />
+                    </li>
+                    <li
+                      className="App__container__display-box__list__item"
+                    >
+                      <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag1",
+                              "Tag3",
+                              "Tag5",
+                            ],
+                            "title": "SDK 3",
+                          }
+                        }
+                      />
+                    </li>
+                    <li
+                      className="App__container__display-box__list__item"
+                    >
+                      <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag2",
+                            ],
+                            "title": "SDK 4",
+                          }
+                        }
+                      />
+                    </li>
+                    <li
+                      className="App__container__display-box__list__item"
+                    >
+                      <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag3",
+                            ],
+                            "title": "SDK 5",
+                          }
+                        }
+                      />
+                    </li>
+                    <li
+                      className="App__container__display-box__list__item"
+                    >
+                      <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag2",
+                              "Tag4",
+                            ],
+                            "title": "SDK 6",
+                          }
+                        }
+                      />
+                    </li>
+                    <li
+                      className="App__container__display-box__list__item"
+                    >
+                      <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag1",
+                              "Tag3",
+                            ],
+                            "title": "SDK 7",
+                          }
+                        }
+                      />
+                    </li>
+                    <li
+                      className="App__container__display-box__list__item"
+                    >
+                      <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag1",
+                              "Tag2",
+                            ],
+                            "title": "SDK 8",
+                          }
+                        }
+                      />
+                    </li>
+                    <li
+                      className="App__container__display-box__list__item"
+                    >
+                      <Item
+                        item={
+                          Object {
+                            "tag": Array [
+                              "Tag1",
+                              "Tag5",
+                            ],
+                            "title": "SDK 9",
+                          }
+                        }
+                      />
+                    </li>
+                  </ul>,
+                  "className": "App__container__display-box",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <li
+                        className="App__container__display-box__list__item"
+                      >
+                        <Item
+                          item={
+                            Object {
+                              "tag": Array [
+                                "Tag1",
+                                "Tag3",
+                              ],
+                              "title": "SDK 1",
+                            }
+                          }
+                        />
+                      </li>,
+                      <li
+                        className="App__container__display-box__list__item"
+                      >
+                        <Item
+                          item={
+                            Object {
+                              "tag": Array [
+                                "Tag4",
+                              ],
+                              "title": "SDK 2",
+                            }
+                          }
+                        />
+                      </li>,
+                      <li
+                        className="App__container__display-box__list__item"
+                      >
+                        <Item
+                          item={
+                            Object {
+                              "tag": Array [
+                                "Tag1",
+                                "Tag3",
+                                "Tag5",
+                              ],
+                              "title": "SDK 3",
+                            }
+                          }
+                        />
+                      </li>,
+                      <li
+                        className="App__container__display-box__list__item"
+                      >
+                        <Item
+                          item={
+                            Object {
+                              "tag": Array [
+                                "Tag2",
+                              ],
+                              "title": "SDK 4",
+                            }
+                          }
+                        />
+                      </li>,
+                      <li
+                        className="App__container__display-box__list__item"
+                      >
+                        <Item
+                          item={
+                            Object {
+                              "tag": Array [
+                                "Tag3",
+                              ],
+                              "title": "SDK 5",
+                            }
+                          }
+                        />
+                      </li>,
+                      <li
+                        className="App__container__display-box__list__item"
+                      >
+                        <Item
+                          item={
+                            Object {
+                              "tag": Array [
+                                "Tag2",
+                                "Tag4",
+                              ],
+                              "title": "SDK 6",
+                            }
+                          }
+                        />
+                      </li>,
+                      <li
+                        className="App__container__display-box__list__item"
+                      >
+                        <Item
+                          item={
+                            Object {
+                              "tag": Array [
+                                "Tag1",
+                                "Tag3",
+                              ],
+                              "title": "SDK 7",
+                            }
+                          }
+                        />
+                      </li>,
+                      <li
+                        className="App__container__display-box__list__item"
+                      >
+                        <Item
+                          item={
+                            Object {
+                              "tag": Array [
+                                "Tag1",
+                                "Tag2",
+                              ],
+                              "title": "SDK 8",
+                            }
+                          }
+                        />
+                      </li>,
+                      <li
+                        className="App__container__display-box__list__item"
+                      >
+                        <Item
+                          item={
+                            Object {
+                              "tag": Array [
+                                "Tag1",
+                                "Tag5",
+                              ],
+                              "title": "SDK 9",
+                            }
+                          }
+                        />
+                      </li>,
+                    ],
+                    "className": "App__container__display-box__list",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "0",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <Item
+                          item={
+                            Object {
+                              "tag": Array [
+                                "Tag1",
+                                "Tag3",
+                              ],
+                              "title": "SDK 1",
+                            }
+                          }
+                        />,
+                        "className": "App__container__display-box__list__item",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "item": Object {
+                            "tag": Array [
+                              "Tag1",
+                              "Tag3",
+                            ],
+                            "title": "SDK 1",
+                          },
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "1",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <Item
+                          item={
+                            Object {
+                              "tag": Array [
+                                "Tag4",
+                              ],
+                              "title": "SDK 2",
+                            }
+                          }
+                        />,
+                        "className": "App__container__display-box__list__item",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "item": Object {
+                            "tag": Array [
+                              "Tag4",
+                            ],
+                            "title": "SDK 2",
+                          },
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "2",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <Item
+                          item={
+                            Object {
+                              "tag": Array [
+                                "Tag1",
+                                "Tag3",
+                                "Tag5",
+                              ],
+                              "title": "SDK 3",
+                            }
+                          }
+                        />,
+                        "className": "App__container__display-box__list__item",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "item": Object {
+                            "tag": Array [
+                              "Tag1",
+                              "Tag3",
+                              "Tag5",
+                            ],
+                            "title": "SDK 3",
+                          },
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "3",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <Item
+                          item={
+                            Object {
+                              "tag": Array [
+                                "Tag2",
+                              ],
+                              "title": "SDK 4",
+                            }
+                          }
+                        />,
+                        "className": "App__container__display-box__list__item",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "item": Object {
+                            "tag": Array [
+                              "Tag2",
+                            ],
+                            "title": "SDK 4",
+                          },
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "4",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <Item
+                          item={
+                            Object {
+                              "tag": Array [
+                                "Tag3",
+                              ],
+                              "title": "SDK 5",
+                            }
+                          }
+                        />,
+                        "className": "App__container__display-box__list__item",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "item": Object {
+                            "tag": Array [
+                              "Tag3",
+                            ],
+                            "title": "SDK 5",
+                          },
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "5",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <Item
+                          item={
+                            Object {
+                              "tag": Array [
+                                "Tag2",
+                                "Tag4",
+                              ],
+                              "title": "SDK 6",
+                            }
+                          }
+                        />,
+                        "className": "App__container__display-box__list__item",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "item": Object {
+                            "tag": Array [
+                              "Tag2",
+                              "Tag4",
+                            ],
+                            "title": "SDK 6",
+                          },
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "6",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <Item
+                          item={
+                            Object {
+                              "tag": Array [
+                                "Tag1",
+                                "Tag3",
+                              ],
+                              "title": "SDK 7",
+                            }
+                          }
+                        />,
+                        "className": "App__container__display-box__list__item",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "item": Object {
+                            "tag": Array [
+                              "Tag1",
+                              "Tag3",
+                            ],
+                            "title": "SDK 7",
+                          },
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "7",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <Item
+                          item={
+                            Object {
+                              "tag": Array [
+                                "Tag1",
+                                "Tag2",
+                              ],
+                              "title": "SDK 8",
+                            }
+                          }
+                        />,
+                        "className": "App__container__display-box__list__item",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "item": Object {
+                            "tag": Array [
+                              "Tag1",
+                              "Tag2",
+                            ],
+                            "title": "SDK 8",
+                          },
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "8",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <Item
+                          item={
+                            Object {
+                              "tag": Array [
+                                "Tag1",
+                                "Tag5",
+                              ],
+                              "title": "SDK 9",
+                            }
+                          }
+                        />,
+                        "className": "App__container__display-box__list__item",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "item": Object {
+                            "tag": Array [
+                              "Tag1",
+                              "Tag5",
+                            ],
+                            "title": "SDK 9",
+                          },
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "li",
+                    },
+                  ],
+                  "type": "ul",
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
